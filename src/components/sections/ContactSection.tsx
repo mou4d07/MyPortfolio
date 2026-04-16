@@ -10,10 +10,10 @@ export function ContactSection() {
         <Section id="contact" className="container mx-auto px-6">
             <div className="mx-auto max-w-5xl">
                 <div className="mb-12 text-center text-balance">
-                    <h2 className="mb-4 text-4xl font-bold tracking-tight text-white md:text-5xl">
+                    <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">
                         Let's Build Something <span className="text-blue-400">Great Together</span>
                     </h2>
-                    <p className="text-lg text-slate-400">
+                    <p className="text-lg text-muted">
                         Currently open for remote global opportunities in DevOps and Full-Stack Development.
                     </p>
                 </div>
@@ -26,8 +26,8 @@ export function ContactSection() {
                                 <Mail className="h-6 w-6" />
                             </div>
                             <div>
-                                <h4 className="text-lg font-bold text-white">Email</h4>
-                                <p className="text-slate-400">boudmaghmounir@gmail.com</p>
+                                <h4 className="text-lg font-bold text-foreground">Email</h4>
+                                <p className="text-muted">boudmaghmounir@gmail.com</p>
                             </div>
                         </div>
 
@@ -36,16 +36,16 @@ export function ContactSection() {
                                 <MapPin className="h-6 w-6" />
                             </div>
                             <div>
-                                <h4 className="text-lg font-bold text-white">Location</h4>
-                                <p className="text-slate-400">Algeria (Available Worldwide)</p>
+                                <h4 className="text-lg font-bold text-foreground">Location</h4>
+                                <p className="text-muted">Algeria (Available Worldwide)</p>
                             </div>
                         </div>
 
                         <div className="pt-8 flex gap-6">
-                            <a href="https://github.com/MounirBoudmagh" className="text-slate-400 hover:text-white transition-colors">
+                            <a href="https://github.com/MounirBoudmagh" className="text-muted hover:text-foreground transition-colors">
                                 <SiGithub size={32} />
                             </a>
-                            <a href="www.linkedin.com/in/mounir-boudmagh-9b81a5168" className="text-slate-400 hover:text-blue-400 transition-colors">
+                            <a href="www.linkedin.com/in/mounir-boudmagh-9b81a5168" className="text-muted hover:text-blue-400 transition-colors">
                                 <FaLinkedin size={32} />
                             </a>
                         </div>
@@ -55,17 +55,17 @@ export function ContactSection() {
                     <form className="space-y-6">
                         <div className="grid gap-6 sm:grid-cols-2">
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-slate-300">Name</label>
-                                <input className="w-full rounded-xl border border-slate-800 bg-slate-900/50 px-4 py-3 text-white focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-slate-600" placeholder="John Doe" />
+                                <label className="text-sm font-medium text-muted">Name</label>
+                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="John Doe" />
                             </div>
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-slate-300">Email</label>
-                                <input className="w-full rounded-xl border border-slate-800 bg-slate-900/50 px-4 py-3 text-white focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-slate-600" placeholder="john@example.com" />
+                                <label className="text-sm font-medium text-muted">Email</label>
+                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="john@example.com" />
                             </div>
                         </div>
                         <div className="space-y-2">
-                            <label className="text-sm font-medium text-slate-300">Message</label>
-                            <textarea rows={4} className="w-full rounded-xl border border-slate-800 bg-slate-900/50 px-4 py-3 text-white focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-slate-600" placeholder="Your message here..." />
+                            <label className="text-sm font-medium text-muted">Message</label>
+                            <textarea rows={4} className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="Your message here..." />
                         </div>
                         <Button type="button" className="w-full sm:w-auto">
                             Send Message

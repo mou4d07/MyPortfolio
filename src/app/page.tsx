@@ -11,7 +11,7 @@ import { Footer } from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-slate-950">
+    <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
       <AboutSection />
       <SkillsSection />

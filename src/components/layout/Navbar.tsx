@@ -6,6 +6,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+import { Sun, Moon } from "lucide-react";
+import { useTheme } from "next-themes";
+
 const navLinks = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
@@ -16,6 +19,14 @@ const navLinks = [
 ];
 
 export function Navbar() {
+    const { theme, setTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState("");
@@ -58,11 +69,13 @@ export function Navbar() {
         <nav
             className={cn(
                 "fixed top-0 z-50 w-full transition-all duration-300",
-                isScrolled ? "bg-slate-950/80 py-4 backdrop-blur-md border-b border-slate-900" : "bg-transparent py-6"
+                isScrolled
+                    ? "bg-background/80 py-4 backdrop-blur-md border-b border-border"
+                    : "bg-transparent py-6"
             )}
         >
             <div className="container mx-auto flex items-center justify-between px-6">
-                <a href="#hero" className="text-xl font-bold tracking-tighter text-white">
+                <a href="#hero" className="text-xl font-bold tracking-tighter text-foreground">
                     M<span className="text-blue-500">B</span>.
                 </a>
 
@@ -97,13 +110,50 @@ export function Navbar() {
                     })}
                 </div>
 
-                {/* Mobile Menu Toggle */}
-                <button
-                    className="text-slate-400 md:hidden"
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                >
-                    {isMobileMenuOpen ? <X /> : <Menu />}
-                </button>
+                <div className="flex items-center gap-4">
+                    {mounted && (
+                        <button
+                            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                            className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-slate-100/10 text-slate-400 transition-all hover:bg-slate-100/20 hover:text-blue-400 dark:bg-slate-800/50 dark:hover:bg-slate-800"
+                            aria-label="Toggle theme"
+                        >
+                            {/* Sun Icon (Visible in Light Mode) */}
+                            <motion.div
+                                initial={false}
+                                animate={{
+                                    scale: theme === "light" ? 1 : 0,
+                                    rotate: theme === "light" ? 0 : -90,
+                                    opacity: theme === "light" ? 1 : 0,
+                                }}
+                                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                className="absolute"
+                            >
+                                <Sun className="h-5 w-5" />
+                            </motion.div>
+                            {/* Moon Icon (Visible in Dark Mode) */}
+                            <motion.div
+                                initial={false}
+                                animate={{
+                                    scale: theme === "dark" ? 1 : 0,
+                                    rotate: theme === "dark" ? 0 : 90,
+                                    opacity: theme === "dark" ? 1 : 0,
+                                }}
+                                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                className="absolute"
+                            >
+                                <Moon className="h-5 w-5" />
+                            </motion.div>
+                        </button>
+                    )}
+
+                    {/* Mobile Menu Toggle */}
+                    <button
+                        className="text-slate-400 md:hidden"
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    >
+                        {isMobileMenuOpen ? <X /> : <Menu />}
+                    </button>
+                </div>
             </div>
 
             {/* Mobile Navigation */}

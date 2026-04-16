@@ -40,7 +40,7 @@ const experiences = [
 export function ExperienceSection() {
     return (
         <Section id="experience" className="container mx-auto px-6">
-            <h2 className="mb-12 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                 Professional <span className="text-blue-400">Experience</span>
             </h2>
 
@@ -66,7 +66,7 @@ export function ExperienceSection() {
                     >
                         {/* Timeline dot */}
                         <motion.div
-                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-slate-950 bg-slate-900 text-blue-400 shadow-xl group-hover:scale-110 transition-transform duration-300 z-10 md:absolute md:left-1/2 md:-translate-x-1/2"
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-background bg-card text-blue-400 shadow-xl group-hover:scale-110 transition-transform duration-300 z-10 md:absolute md:left-1/2 md:-translate-x-1/2"
                             initial={{ scale: 0 }}
                             whileInView={{ scale: 1 }}
                             viewport={{ once: true }}
@@ -81,16 +81,16 @@ export function ExperienceSection() {
                         </motion.div>
 
                         {/* Content card */}
-                        <div className="ml-8 w-[calc(100%-4rem)] rounded-2xl border border-slate-800 bg-slate-900/50 p-6 shadow-sm transition-all hover:border-slate-700 hover:bg-slate-900 md:ml-0 md:w-[45%]">
-                            <div className="mb-2 flex items-center justify-between gap-2 text-sm font-medium text-slate-400">
+                        <div className="ml-8 w-[calc(100%-4rem)] rounded-2xl border border-border bg-card/50 p-6 shadow-sm transition-all hover:border-blue-500/30 hover:bg-card md:ml-0 md:w-[45%]">
+                            <div className="mb-2 flex items-center justify-between gap-2 text-sm font-medium text-muted">
                                 <span className="flex items-center gap-1">
                                     <Calendar className="h-4 w-4 text-blue-400" />
                                     {exp.period}
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold text-white">{exp.title}</h3>
+                            <h3 className="text-xl font-bold text-foreground">{exp.title}</h3>
                             <p className="mb-4 font-medium text-blue-400">{exp.company}</p>
-                            <ul className="space-y-2 text-sm text-slate-400">
+                            <ul className="space-y-2 text-sm text-muted">
                                 {exp.description.map((item, i) => (
                                     <li key={i} className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-1.5 before:w-1.5 before:rounded-full before:bg-emerald-500/60">
                                         {item}

@@ -20,12 +20,12 @@ const skillCategories = [
     {
         title: "Infrastructure & Cloud",
         icon: <Server className="h-8 w-8 text-blue-400" />,
-        skills: ["Proxmox VE", "VMware ESXi 7.0", "Windows Server", "Linux", "Active Directory", "Veeam"],
+        skills: ["VMware ESXi 7.0", "Proxmox VE", "Windows Server", "CentOS", "RedHat", "Active Directory", "Exchange", "Veeam"],
     },
     {
         title: "AI & Machine Learning",
         icon: <Cpu className="h-8 w-8 text-emerald-400" />,
-        skills: ["TensorFlow", "Keras", "OpenCV", "Recurrent Neural Networks"],
+        skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Convolution Neurol Netwok", "Recurrent Neural Networks", "Transformers"],
     },
 ];
 
@@ -52,7 +52,7 @@ const cardVariants = {
 export function SkillsSection() {
     return (
         <Section id="skills" className="container mx-auto px-6">
-            <h2 className="mb-12 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                 Technical <span className="text-blue-400">Skills</span>
             </h2>
 
@@ -65,14 +65,14 @@ export function SkillsSection() {
             >
                 {skillCategories.map((category, index) => (
                     <motion.div key={index} variants={cardVariants}>
-                        <Card className="flex flex-col gap-4 h-full">
+                        <Card className="flex flex-col gap-4 h-full bg-card">
                             <div className="mb-2">{category.icon}</div>
-                            <h3 className="text-xl font-bold text-white">{category.title}</h3>
+                            <h3 className="text-xl font-bold text-foreground">{category.title}</h3>
                             <ul className="flex flex-wrap gap-2 mt-auto">
                                 {category.skills.map((skill) => (
                                     <li
                                         key={skill}
-                                        className="rounded-md bg-slate-800/50 px-2 py-1 text-xs font-medium text-slate-300 border border-slate-700/50"
+                                        className="rounded-md bg-muted/10 px-2 py-1 text-xs font-medium text-muted border border-border/50"
                                     >
                                         {skill}
                                     </li>

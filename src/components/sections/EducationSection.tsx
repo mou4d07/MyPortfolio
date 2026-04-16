@@ -28,18 +28,18 @@ export function EducationSection() {
             <div className="grid gap-12 lg:grid-cols-2">
                 {/* Education Column */}
                 <div>
-                    <h2 className="mb-8 text-3xl font-bold tracking-tight text-white">
+                    <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">
                         <span className="text-blue-400">Education</span>
                     </h2>
                     <div className="space-y-4">
                         {education.map((edu, index) => (
-                            <Card key={index} className="flex gap-4 items-start">
+                            <Card key={index} className="flex gap-4 items-start bg-card">
                                 <div className="rounded-lg bg-blue-500/10 p-2 shrink-0">
                                     {edu.icon}
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-white">{edu.degree}</h3>
-                                    <p className="text-slate-400">{edu.institution}</p>
+                                    <h3 className="text-lg font-bold text-foreground">{edu.degree}</h3>
+                                    <p className="text-muted">{edu.institution}</p>
                                 </div>
                             </Card>
                         ))}
@@ -48,14 +48,14 @@ export function EducationSection() {
 
                 {/* Certifications Column */}
                 <div>
-                    <h2 className="mb-8 text-3xl font-bold tracking-tight text-white">
+                    <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">
                         <span className="text-emerald-400">Certifications</span>
                     </h2>
                     <div className="grid gap-4 sm:grid-cols-2">
                         {certifications.map((cert, index) => (
-                            <Card key={index} className="flex items-center gap-3">
+                            <Card key={index} className="flex items-center gap-3 bg-card">
                                 <Award className="h-5 w-5 text-emerald-400 shrink-0" />
-                                <span className="text-sm font-medium text-slate-300">{cert}</span>
+                                <span className="text-sm font-medium text-muted">{cert}</span>
                             </Card>
                         ))}
                     </div>
