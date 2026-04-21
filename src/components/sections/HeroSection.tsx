@@ -38,17 +38,17 @@ export function HeroSection() {
                 style={{ translateX: "-50%", translateY: "-50%" }}
             />
 
-            <div className="container relative z-10 mx-auto px-6 max-w-6xl lg:pl-10">
-                <div className="grid grid-cols-[1fr_auto] items-center gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-12">
+            <div className="container relative z-10 mx-auto w-full max-w-6xl px-6 min-[1920px]:max-w-[100rem]">
+                <div className="grid grid-cols-1 items-center justify-center gap-6 sm:grid-cols-[auto_auto] sm:justify-center sm:gap-8 lg:gap-16 xl:gap-20">
 
                     {/* LEFT COLUMN: TEXT CONTENT */}
-                    <div className="text-left order-2 lg:order-1">
+                    <div className="text-left">
                         <motion.div
                             initial={{ opacity: 0, x: -30 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
                         >
-                            <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-foreground md:text-7xl lg:text-8xl">
+                            <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-foreground sm:mb-6 sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl min-[1920px]:text-9xl min-[1920px]:leading-none">
                                 {t("hero.firstName")}{" "}
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
                                     {t("hero.lastName")}
@@ -61,7 +61,7 @@ export function HeroSection() {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.2, duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
                         >
-                            <h2 className="mb-8 text-xl font-medium text-muted md:text-2xl">
+                            <h2 className="mb-6 text-base font-medium text-muted sm:mb-8 sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-4xl">
                                 {t("hero.subtitle1")} <span className="text-blue-500">|</span> {t("hero.subtitle2")}{" "}
                                 <span className="text-blue-500">|</span> {t("hero.subtitle3")}
                             </h2>
@@ -71,7 +71,7 @@ export function HeroSection() {
                             initial={{ opacity: 0, x: -30 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.4, duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
-                            className="mb-10 max-w-2xl text-lg text-muted"
+                            className="mb-8 max-w-2xl text-base text-muted sm:mb-10 sm:text-lg lg:text-lg xl:text-lg xl:max-w-2xl 2xl:text-xl 2xl:max-w-3xl min-[1920px]:text-2xl min-[1920px]:max-w-4xl"
                         >
                             {t("hero.description")}
                         </motion.p>
@@ -98,7 +98,7 @@ export function HeroSection() {
                         initial={{ opacity: 0, scale: 0.8, x: 50 }}
                         animate={{ opacity: 1, scale: 1, x: 0 }}
                         transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
-                        className="relative mx-auto max-w-[120px] sm:max-w-[200px] lg:max-w-[350px] lg:ml-auto lg:mr-0 order-1 lg:order-2"
+                        className="relative hidden sm:block sm:w-[340px] md:w-[340px] lg:w-[340px] xl:w-[340px] 2xl:w-[340px] [@media(min-width:1920px)]:w-[450px]"
                     >
                         {/* Glow effect behind image */}
                         <div className="absolute inset-x-0 -bottom-10 -z-10 h-1/2 bg-blue-500/20 blur-3xl opacity-50" />
