@@ -5,25 +5,26 @@ import { motion } from "framer-motion";
 import { Code2, Terminal, Server, Cpu } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const skillCategories = [
     {
-        title: "Full-Stack Development",
+        titleKey: "skills.categories.fullstack",
         icon: <Code2 className="h-8 w-8 text-blue-400" />,
         skills: ["ASP.NET Core (MVC & API)", "Next.js", "TypeScript", "Python", "Flutter", "SQL"],
     },
     {
-        title: "DevOps & CI/CD",
+        titleKey: "skills.categories.devops",
         icon: <Terminal className="h-8 w-8 text-emerald-400" />,
         skills: ["Azure DevOps", "Git", "Docker", "Vagrant", "Nginx", "IIS"],
     },
     {
-        title: "Infrastructure & Cloud",
+        titleKey: "skills.categories.infrastructure",
         icon: <Server className="h-8 w-8 text-blue-400" />,
         skills: ["VMware ESXi 7.0", "Proxmox VE", "Windows Server", "CentOS", "RedHat", "Active Directory", "Exchange", "Veeam"],
     },
     {
-        title: "AI & Machine Learning",
+        titleKey: "skills.categories.ai",
         icon: <Cpu className="h-8 w-8 text-emerald-400" />,
         skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Convolution Neurol Netwok", "Recurrent Neural Networks", "Transformers"],
     },
@@ -50,10 +51,12 @@ const cardVariants = {
 };
 
 export function SkillsSection() {
+    const { t } = useLanguage();
+
     return (
         <Section id="skills" className="container mx-auto px-6">
             <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-                Technical <span className="text-blue-400">Skills</span>
+                {t("skills.title")} <span className="text-blue-400">{t("skills.titleAccent")}</span>
             </h2>
 
             <motion.div
@@ -67,7 +70,7 @@ export function SkillsSection() {
                     <motion.div key={index} variants={cardVariants}>
                         <Card className="flex flex-col gap-4 h-full bg-card">
                             <div className="mb-2">{category.icon}</div>
-                            <h3 className="text-xl font-bold text-foreground">{category.title}</h3>
+                            <h3 className="text-xl font-bold text-foreground">{t(category.titleKey)}</h3>
                             <ul className="flex flex-wrap gap-2 mt-auto">
                                 {category.skills.map((skill) => (
                                     <li

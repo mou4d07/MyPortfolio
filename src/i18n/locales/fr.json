@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "education": "Formation",
+    "teaching": "Enseignement",
+    "hobbies": "Loisirs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "firstName": "Mounir",
+    "lastName": "Boudmagh",
+    "subtitle1": "Développeur Full-Stack",
+    "subtitle2": "Ingénieur DevOps",
+    "subtitle3": "Architecte Systèmes IT",
+    "description": "Combler le fossé entre l'ingénierie logicielle évolutive et une infrastructure IT robuste.",
+    "viewProjects": "Voir les Projets",
+    "downloadCV": "Télécharger le CV",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "À",
+    "titleAccent": "Propos",
+    "p1": "Professionnel IT très adaptable et leader en développement avec plus de 8 ans d'expérience en entreprise, alliant ingénierie logicielle et infrastructure IT. Actuellement Chef du Service Développement d'Applications, spécialisé en développement web Full-Stack (<accent1>Next.js, ASP.NET Core</accent1>) et méthodologies DevOps.",
+    "p2": "Bilan éprouvé dans l'architecture d'applications évolutives, l'orchestration de déploiements automatisés vers des serveurs web haute disponibilité (<accent2>IIS, Nginx</accent2>), et la gestion de pipelines CI/CD dans Azure DevOps.",
+    "p3": "Apporte une expertise approfondie dans l'optimisation de la virtualisation d'entreprise, le déploiement d'environnements Windows Server et Linux sur des machines virtuelles et des serveurs bare-metal, et la recherche en Deep Learning."
+  },
+  "skills": {
+    "title": "Compétences",
+    "titleAccent": "Techniques",
+    "categories": {
+      "fullstack": "Développement Full-Stack",
+      "devops": "DevOps & CI/CD",
+      "infrastructure": "Infrastructure & Cloud",
+      "ai": "IA & Machine Learning"
+    }
+  },
+  "experience": {
+    "title": "Expérience",
+    "titleAccent": "Professionnelle",
+    "jobs": {
+      "job1": {
+        "title": "Chef du Service Développement d'Applications",
+        "company": "Algerian Solb",
+        "period": "Mars 2023 – Présent",
+        "desc1": "Conception et déploiement de solutions web full-stack évolutives (Next.js, ASP.NET Core).",
+        "desc2": "Gestion des pipelines CI/CD Azure DevOps pour les déploiements automatisés sur IIS et Nginx.",
+        "desc3": "Direction des équipes d'ingénierie dans la conception et la livraison de solutions internes robustes."
+      },
+      "job2": {
+        "title": "Ingénieur Systèmes",
+        "company": "Algerian Solb",
+        "period": "Fév 2018 – Mars 2023",
+        "desc1": "Déploiement et administration de Windows Server/Linux sur machines virtuelles et serveurs physiques.",
+        "desc2": "Optimisation de la virtualisation d'entreprise (VMware ESXi, vCenter).",
+        "desc3": "Administration d'Active Directory et solutions de sauvegarde d'entreprise (Veeam)."
+      },
+      "job3": {
+        "title": "Gérant de Micro-Entreprise & Consultant IT",
+        "company": "Amayas Tech (Freelance)",
+        "period": "Freelance",
+        "desc1": "Architecture d'infrastructure de bout en bout avec Proxmox VE et déploiements de domaines complets.",
+        "desc2": "Développement d'applications Web, Mobile et Desktop sur mesure pour des clients entreprise."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "titleAccent": "Phares",
+    "project1": {
+      "title": "Système de Paie & Carrière d'Entreprise",
+      "description": "Numérisation et rationalisation des processus de paie, remplaçant les systèmes existants par une solution moderne automatisée."
+    },
+    "project2": {
+      "title": "Portail Web d'Entreprise",
+      "description": "Conception d'un portail d'entreprise public hautement évolutif avec fonctionnalité mobile intégrée."
+    },
+    "project3": {
+      "title": "Reconnaissance d'Actions Humaines par IA",
+      "description": "Application de recherche doctorale utilisant la fusion de données audio et squelettiques pour la reconnaissance d'actions humaines en temps réel."
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "certificationsTitle": "Certifications",
+    "degrees": {
+      "phd": "Doctorant en Informatique (Deep Learning)",
+      "phdInstitution": "Université BADJI MOKHTAR",
+      "masters": "Master en Systèmes Embarqués et Mobilité",
+      "mastersInstitution": "Niveau Universitaire"
+    }
+  },
+  "languages": {
+    "title": "Langues",
+    "arabic": "Arabe",
+    "arabicLevel": "Langue maternelle",
+    "french": "Français",
+    "frenchLevel": "Professionnel complet",
+    "english": "Anglais",
+    "englishLevel": "Professionnel courant"
+  },
+  "teaching": {
+    "title": "Enseignement &",
+    "titleAccent": "Publications",
+    "items": {
+      "item1": {
+        "title": "Algorithmique 1 et 2",
+        "institution": "Centre de Formation Didouche Mourad Annaba",
+        "period": "2017 - 2018"
+      },
+      "item2": {
+        "title": "Langage C (Vacataire : TD)",
+        "institution": "Université BADJI MOKHTAR Annaba Sidi Amar",
+        "period": "2020 - 2021"
+      },
+      "item3": {
+        "title": "Les bases des réseaux informatiques",
+        "institution": "APS SCHOOL Annaba",
+        "period": "Mars 2021"
+      },
+      "item4": {
+        "title": "Langage Python (Vacataire : TD)",
+        "institution": "Université BADJI MOKHTAR Annaba Sidi Amar",
+        "period": "2020 - 2021"
+      },
+      "item5": {
+        "title": "VMware vSphere",
+        "institution": "IT TALENT SCHOOL Annaba",
+        "period": "Mars 2023"
+      },
+      "item6": {
+        "title": "ASP.NET Core MVC",
+        "institution": "ALSOLB Annaba",
+        "period": "Jan 2024"
+      },
+      "item7": {
+        "title": "Langage SQL (Vacataire : TD)",
+        "institution": "Université BADJI MOKHTAR Annaba El Bouni",
+        "period": "Sept 2024"
+      },
+      "item8": {
+        "title": "Programmation Orientée Objet (Vacataire : TP)",
+        "institution": "Université BADJI MOKHTAR Annaba Sidi Amar",
+        "period": "Fév 2025"
+      },
+      "item9": {
+        "title": "WordPress pour débutants",
+        "institution": "Numidia School Constantine",
+        "period": "Avr 2025"
+      }
+    },
+    "publicationsTitle": "Key",
+    "publicationsAccent": "Publications",
+    "publications": {
+      "pub1": {
+        "title": "Reconnaissance d'activité vidéo basée sur la détection d'objets à l'aide de réseaux de neurones récurrents",
+        "year": "2021",
+        "source": "5ème Conférence internationale sur les applications des villes intelligentes",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-030-66840-2_65"
+      },
+      "pub2": {
+        "title": "Reconnaissance d'actions humaines multimodales pour les systèmes ubiquitaires : Attention croisée du squelette et de l'audio",
+        "year": "2026",
+        "source": "Journal international des technologies mobiles interactives",
+        "doi": "https://online-journals.org/index.php/i-jim/article/view/58381"
+      }
+    }
+  },
+  "hobbies": {
+    "title": "Intérêts &",
+    "titleAccent": "Loisirs",
+    "items": {
+      "hobby1": {
+        "name": "Plongée sous-marine",
+        "description": "Certification CMAS FFESSM : P3 + RIFAP"
+      },
+      "hobby2": {
+        "name": "Jardinage"
+      },
+      "hobby3": {
+        "name": "Apiculture"
+      }
+    }
+  },
+  "contact": {
+    "title": "Construisons Quelque Chose de",
+    "titleAccent": "Grand Ensemble",
+    "subtitle": "Actuellement ouvert aux opportunités mondiales à distance en DevOps et Développement Full-Stack.",
+    "email": "Email",
+    "location": "Localisation",
+    "locationValue": "Algérie (Disponible dans le monde entier)",
+    "formName": "Nom",
+    "formNamePlaceholder": "Jean Dupont",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "jean@exemple.com",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Votre message ici...",
+    "sendButton": "Envoyer le Message"
+  },
+  "footer": {
+    "builtWith": "Construit avec",
+    "and": "et"
+  }
+}

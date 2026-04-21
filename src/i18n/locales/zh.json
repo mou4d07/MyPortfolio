@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "about": "关于我",
+    "skills": "技能",
+    "experience": "经验",
+    "projects": "项目",
+    "education": "教育",
+    "teaching": "教学",
+    "hobbies": "爱好",
+    "contact": "联系"
+  },
+  "hero": {
+    "firstName": "Mounir",
+    "lastName": "Boudmagh",
+    "subtitle1": "全栈开发工程师",
+    "subtitle2": "DevOps工程师",
+    "subtitle3": "IT系统架构师",
+    "description": "连接可扩展的软件工程与强大的IT基础设施。",
+    "viewProjects": "查看项目",
+    "downloadCV": "下载简历",
+    "scroll": "滚动"
+  },
+  "about": {
+    "title": "关于",
+    "titleAccent": "我",
+    "p1": "高度适应性的IT专业人士和开发领导者，拥有超过8年的企业经验，将软件工程和IT基础设施相结合。目前担任应用开发服务主管，专注于全栈Web开发（<accent1>Next.js, ASP.NET Core</accent1>）和DevOps方法论。",
+    "p2": "在架构可扩展应用程序、编排向高可用性Web服务器（<accent2>IIS, Nginx</accent2>）的自动化部署以及管理Azure DevOps中的CI/CD管道方面有着良好的业绩记录。",
+    "p3": "在优化企业虚拟化、在虚拟机和裸机服务器上部署Windows Server and Linux环境以及AI深度学习研究方面拥有深厚的基础专业知识。"
+  },
+  "skills": {
+    "title": "技术",
+    "titleAccent": "技能",
+    "categories": {
+      "fullstack": "全栈开发",
+      "devops": "DevOps与CI/CD",
+      "infrastructure": "基础设施与云",
+      "ai": "人工智能与机器学习"
+    }
+  },
+  "experience": {
+    "title": "专业",
+    "titleAccent": "经验",
+    "jobs": {
+      "job1": {
+        "title": "应用开发服务主管",
+        "company": "Algerian Solb",
+        "period": "2023年3月 – 至今",
+        "desc1": "设计和部署可扩展的全栈Web解决方案（Next.js, ASP.NET Core）。",
+        "desc2": "管理Azure DevOps CI/CD管道，实现IIS和Nginx的自动化部署。",
+        "desc3": "领导工程团队进行端到端的设计和交付强大的内部解决方案。"
+      },
+      "job2": {
+        "title": "系统工程师",
+        "company": "Algerian Solb",
+        "period": "2018年2月 – 2023年3月",
+        "desc1": "在虚拟机和裸机服务器上部署和管理Windows Server/Linux。",
+        "desc2": "优化企业虚拟化（VMware ESXi, vCenter）。",
+        "desc3": "管理Active Directory和企业备份解决方案（Veeam）。"
+      },
+      "job3": {
+        "title": "微型企业主与IT顾问",
+        "company": "Amayas Tech（自由职业）",
+        "period": "自由职业",
+        "desc1": "使用Proxmox VE设计端到端基础设施和完整域部署。",
+        "desc2": "为企业客户开发定制Web、移动和桌面应用程序。"
+      }
+    }
+  },
+  "projects": {
+    "title": "精选",
+    "titleAccent": "项目",
+    "project1": {
+      "title": "企业薪资与职业系统",
+      "description": "数字化并简化薪资流程，用现代自动化解决方案替代遗留系统。"
+    },
+    "project2": {
+      "title": "企业门户网站",
+      "description": "设计了一个高度可扩展的面向公众的企业门户，集成了移动功能。"
+    },
+    "project3": {
+      "title": "AI人体动作识别",
+      "description": "博士研究应用，利用音频和骨骼数据融合进行实时人体动作识别。"
+    }
+  },
+  "education": {
+    "title": "教育",
+    "certificationsTitle": "认证",
+    "degrees": {
+      "phd": "计算机科学博士生（深度学习）",
+      "phdInstitution": "BADJI MOKHTAR大学",
+      "masters": "嵌入式系统与移动性硕士",
+      "mastersInstitution": "大学级别"
+    }
+  },
+  "languages": {
+    "title": "语言",
+    "arabic": "阿拉伯语",
+    "arabicLevel": "母语",
+    "french": "法语",
+    "frenchLevel": "完全专业",
+    "english": "英语",
+    "englishLevel": "工作专业"
+  },
+  "teaching": {
+    "title": "教学与",
+    "titleAccent": "出版物",
+    "items": {
+      "item1": {
+        "title": "算法 1 和 2",
+        "institution": "安纳巴 Didouche Mourad 培训中心",
+        "period": "2017 - 2018"
+      },
+      "item2": {
+        "title": "C 语言（兼职助教）",
+        "institution": "安纳巴 BADJI MOKHTAR Sidi Amar 大学",
+        "period": "2020 - 2021"
+      },
+      "item3": {
+        "title": "计算机网络基础",
+        "institution": "安纳巴 APS 学校",
+        "period": "2021年3月"
+      },
+      "item4": {
+        "title": "Python 语言（兼职助教）",
+        "institution": "安纳巴 BADJI MOKHTAR Sidi Amar 大学",
+        "period": "2020 - 2021"
+      },
+      "item5": {
+        "title": "VMware vSphere",
+        "institution": "安纳巴 IT TALENT 学校",
+        "period": "2023年3月"
+      },
+      "item6": {
+        "title": "ASP.NET Core MVC",
+        "institution": "安纳巴 ALSOLB",
+        "period": "2024年1月"
+      },
+      "item7": {
+        "title": "SQL 语言（兼职助教）",
+        "institution": "安纳巴 BADJI MOKHTAR El Bouni 大学",
+        "period": "2024年9月"
+      },
+      "item8": {
+        "title": "面向对象编程（兼职补习）",
+        "institution": "安纳巴 BADJI MOKHTAR Sidi Amar 大学",
+        "period": "2025年2月"
+      },
+      "item9": {
+        "title": "WordPress 入门",
+        "institution": "君士坦丁 Numidia 学校",
+        "period": "2025年4月"
+      }
+    },
+    "publicationsTitle": "主要",
+    "publicationsAccent": "出版物",
+    "publications": {
+      "pub1": {
+        "title": "基于循环神经网络目标检测的视频动作识别",
+        "year": "2021",
+        "source": "第五届智慧城市应用国际会议",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-030-66840-2_65"
+      },
+      "pub2": {
+        "title": "泛在系统的多模态人体动作识别：骨骼与音频的交叉注意",
+        "year": "2026",
+        "source": "交互式移动技术国际期刊",
+        "doi": "https://online-journals.org/index.php/i-jim/article/view/58381"
+      }
+    }
+  },
+  "hobbies": {
+    "title": "兴趣与",
+    "titleAccent": "爱好",
+    "items": {
+      "hobby1": {
+        "name": "水肺潜水",
+        "description": "CMAS FFESSM 认证：P3 + RIFAP"
+      },
+      "hobby2": {
+        "name": "园艺"
+      },
+      "hobby3": {
+        "name": "养蜂"
+      }
+    }
+  },
+  "contact": {
+    "title": "让我们一起构建",
+    "titleAccent": "伟大的事物",
+    "subtitle": "目前正在寻求DevOps和全栈开发方面的全球远程机会。",
+    "email": "电子邮件",
+    "location": "位置",
+    "locationValue": "阿尔及利亚（全球可用）",
+    "formName": "姓名",
+    "formNamePlaceholder": "张三",
+    "formEmail": "电子邮件",
+    "formEmailPlaceholder": "zhang@example.com",
+    "formMessage": "消息",
+    "formMessagePlaceholder": "在这里输入您的消息...",
+    "sendButton": "发送消息"
+  },
+  "footer": {
+    "builtWith": "使用",
+    "and": "和"
+  }
+}

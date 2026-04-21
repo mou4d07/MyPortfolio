@@ -1,20 +1,25 @@
 // src/components/sections/ContactSection.tsx
+"use client";
+
 import { Mail, Send, MapPin } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 export function ContactSection() {
+    const { t } = useLanguage();
+
     return (
         <Section id="contact" className="container mx-auto px-6">
             <div className="mx-auto max-w-5xl">
                 <div className="mb-12 text-center text-balance">
                     <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">
-                        Let's Build Something <span className="text-blue-400">Great Together</span>
+                        {t("contact.title")} <span className="text-blue-400">{t("contact.titleAccent")}</span>
                     </h2>
                     <p className="text-lg text-muted">
-                        Currently open for remote global opportunities in DevOps and Full-Stack Development.
+                        {t("contact.subtitle")}
                     </p>
                 </div>
 
@@ -26,7 +31,7 @@ export function ContactSection() {
                                 <Mail className="h-6 w-6" />
                             </div>
                             <div>
-                                <h4 className="text-lg font-bold text-foreground">Email</h4>
+                                <h4 className="text-lg font-bold text-foreground">{t("contact.email")}</h4>
                                 <p className="text-muted">boudmaghmounir@gmail.com</p>
                             </div>
                         </div>
@@ -36,8 +41,8 @@ export function ContactSection() {
                                 <MapPin className="h-6 w-6" />
                             </div>
                             <div>
-                                <h4 className="text-lg font-bold text-foreground">Location</h4>
-                                <p className="text-muted">Algeria (Available Worldwide)</p>
+                                <h4 className="text-lg font-bold text-foreground">{t("contact.location")}</h4>
+                                <p className="text-muted">{t("contact.locationValue")}</p>
                             </div>
                         </div>
 
@@ -55,20 +60,20 @@ export function ContactSection() {
                     <form className="space-y-6">
                         <div className="grid gap-6 sm:grid-cols-2">
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-muted">Name</label>
-                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="John Doe" />
+                                <label className="text-sm font-medium text-muted">{t("contact.formName")}</label>
+                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder={t("contact.formNamePlaceholder")} />
                             </div>
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-muted">Email</label>
-                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="john@example.com" />
+                                <label className="text-sm font-medium text-muted">{t("contact.formEmail")}</label>
+                                <input className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder={t("contact.formEmailPlaceholder")} />
                             </div>
                         </div>
                         <div className="space-y-2">
-                            <label className="text-sm font-medium text-muted">Message</label>
-                            <textarea rows={4} className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder="Your message here..." />
+                            <label className="text-sm font-medium text-muted">{t("contact.formMessage")}</label>
+                            <textarea rows={4} className="w-full rounded-xl border border-border bg-card/50 px-4 py-3 text-foreground focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-muted/50" placeholder={t("contact.formMessagePlaceholder")} />
                         </div>
                         <Button type="button" className="w-full sm:w-auto">
-                            Send Message
+                            {t("contact.sendButton")}
                             <Send className="h-4 w-4" />
                         </Button>
                     </form>

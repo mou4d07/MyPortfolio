@@ -51,3 +51,49 @@ body {
   opacity: 0.15;
   /* Keeps it very subtle */
 }
+
+/* ==================== */
+/* RTL Support (Arabic) */
+/* ==================== */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-justify {
+  text-align: justify;
+}
+
+/* Flip border-left accents to border-right */
+[dir="rtl"] .border-l-2 {
+  border-left-width: 0;
+  border-right-width: 2px;
+}
+
+[dir="rtl"] .pl-4 {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+[dir="rtl"] .rounded-r-lg {
+  border-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* Flip timeline bullet points */
+[dir="rtl"] .before\:left-0::before {
+  left: auto;
+  right: 0;
+}
+
+/* Flip experience timeline cards margin */
+[dir="rtl"] .ml-8 {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+/* Flip the timeline vertical line */
+[dir="rtl"] .before\:ml-5::before {
+  margin-left: 0;
+  margin-right: 1.25rem;
+}

@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "teaching": "Teaching",
+    "hobbies": "Hobbies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "firstName": "Mounir",
+    "lastName": "Boudmagh",
+    "subtitle1": "Full-Stack Developer",
+    "subtitle2": "DevOps Engineer",
+    "subtitle3": "IT Systems Architect",
+    "description": "Bridging the gap between scalable software engineering and robust IT infrastructure.",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "titleAccent": "Me",
+    "p1": "Highly adaptable IT professional and development leader with over 8 years of enterprise experience bridging software engineering and IT infrastructure. Currently serving as Head of Application Development, specializing in Full-Stack Web Development (<accent1>Next.js, ASP.NET Core</accent1>) and DevOps methodologies.",
+    "p2": "Proven track record of architecting scalable applications, orchestrating automated deployments to high-availability web servers (<accent2>IIS, Nginx</accent2>), and managing CI/CD pipelines in Azure DevOps.",
+    "p3": "Brings deep foundational expertise in optimizing enterprise virtualization, deploying Windows Server and Linux environments across VMs and bare-metal servers, and AI Deep Learning research."
+  },
+  "skills": {
+    "title": "Technical",
+    "titleAccent": "Skills",
+    "categories": {
+      "fullstack": "Full-Stack Development",
+      "devops": "DevOps & CI/CD",
+      "infrastructure": "Infrastructure & Cloud",
+      "ai": "AI & Machine Learning"
+    }
+  },
+  "experience": {
+    "title": "Professional",
+    "titleAccent": "Experience",
+    "jobs": {
+      "job1": {
+        "title": "Head of Application Development Service",
+        "company": "Algerian Solb",
+        "period": "Mar 2023 – Present",
+        "desc1": "Architected and deployed scalable full-stack web solutions (Next.js, ASP.NET Core).",
+        "desc2": "Managed Azure DevOps CI/CD pipelines for automated deployments to IIS and Nginx.",
+        "desc3": "Led engineering teams in end-to-end design and delivery of robust internal solutions."
+      },
+      "job2": {
+        "title": "System Engineer",
+        "company": "Algerian Solb",
+        "period": "Feb 2018 – Mar 2023",
+        "desc1": "Deployed and administered Windows Server/Linux on VMs and bare-metal servers.",
+        "desc2": "Optimized enterprise virtualization (VMware ESXi, vCenter).",
+        "desc3": "Administered Active Directory and enterprise backup solutions (Veeam)."
+      },
+      "job3": {
+        "title": "Micro-Enterprise Owner & IT Consultant",
+        "company": "Amayas Tech (Freelance)",
+        "period": "Freelance",
+        "desc1": "Architected end-to-end infrastructure with Proxmox VE and complete domain deployments.",
+        "desc2": "Developed custom Web, Mobile, and Desktop applications for corporate clients."
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured",
+    "titleAccent": "Projects",
+    "project1": {
+      "title": "Enterprise Payroll & Career System",
+      "description": "Digitized and streamlined payroll processes replacing legacy systems with a modern automated solution."
+    },
+    "project2": {
+      "title": "Corporate Web Portal",
+      "description": "Engineered a highly scalable public-facing corporate portal with integrated mobile functionality."
+    },
+    "project3": {
+      "title": "AI Human Action Recognition",
+      "description": "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "certificationsTitle": "Certifications",
+    "degrees": {
+      "phd": "PhD Student in Computer Science (Deep Learning)",
+      "phdInstitution": "BADJI MOKHTAR University",
+      "masters": "Master's Degree in Embedded Systems and Mobility",
+      "mastersInstitution": "University Level"
+    }
+  },
+  "languages": {
+    "title": "Languages",
+    "arabic": "Arabic",
+    "arabicLevel": "Native",
+    "french": "French",
+    "frenchLevel": "Full Professional",
+    "english": "English",
+    "englishLevel": "Professional Working"
+  },
+  "teaching": {
+    "title": "Teaching &",
+    "titleAccent": "Publications",
+    "items": {
+      "item1": {
+        "title": "Algorithmic 1 and 2",
+        "institution": "Annaba Didouche Mourad Training Center",
+        "period": "2017 - 2018"
+      },
+      "item2": {
+        "title": "C Language (Vacataire: TD)",
+        "institution": "Annaba BADJI MOKHTAR Sidi Amar University",
+        "period": "2020 - 2021"
+      },
+      "item3": {
+        "title": "The basis of computer networks",
+        "institution": "Annaba APS SCHOOL",
+        "period": "Mar 2021"
+      },
+      "item4": {
+        "title": "Python Language (Vacataire: TD)",
+        "institution": "Annaba BADJI MOKHTAR Sidi Amar University",
+        "period": "2020 - 2021"
+      },
+      "item5": {
+        "title": "VMware vSphere",
+        "institution": "Annaba IT TALENT SCHOOL",
+        "period": "Mar 2023"
+      },
+      "item6": {
+        "title": "ASP.NET Core MVC",
+        "institution": "Annaba ALSOLB",
+        "period": "Jan 2024"
+      },
+      "item7": {
+        "title": "SQL Language (Vacataire: TD)",
+        "institution": "Annaba BADJI MOKHTAR El Bouni University",
+        "period": "Sept 2024"
+      },
+      "item8": {
+        "title": "Object Oriented Programming (Vacataire: TP)",
+        "institution": "Annaba BADJI MOKHTAR Sid Amar University",
+        "period": "Feb 2025"
+      },
+      "item9": {
+        "title": "WordPress for beginners",
+        "institution": "Constantine Numidia School",
+        "period": "Apr 2025"
+      }
+    },
+    "publicationsTitle": "Key",
+    "publicationsAccent": "Publications",
+    "publications": {
+      "pub1": {
+        "title": "Video Activity Recognition Based on Object Detection Using Recurrent Neural Networks",
+        "year": "2021",
+        "source": "5th International Conference on Smart City Applications",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-030-66840-2_65"
+      },
+      "pub2": {
+        "title": "Multimodal Human Action Recognition for Ubiquitous Systems: Cross-Attention of Skeleton and Audio",
+        "year": "2026",
+        "source": "International Journal of Interactive Mobile Technologies",
+        "doi": "https://online-journals.org/index.php/i-jim/article/view/58381"
+      }
+    }
+  },
+  "hobbies": {
+    "title": "Interests &",
+    "titleAccent": "Hobbies",
+    "items": {
+      "hobby1": {
+        "name": "Scuba diving",
+        "description": "CMAS FFESSM Certification: P3 + RIFAP"
+      },
+      "hobby2": {
+        "name": "Gardening"
+      },
+      "hobby3": {
+        "name": "Beekeeping"
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's Build Something",
+    "titleAccent": "Great Together",
+    "subtitle": "Currently open for remote global opportunities in DevOps and Full-Stack Development.",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Algeria (Available Worldwide)",
+    "formName": "Name",
+    "formNamePlaceholder": "John Doe",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "john@example.com",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Your message here...",
+    "sendButton": "Send Message"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "and": "and"
+  }
+}

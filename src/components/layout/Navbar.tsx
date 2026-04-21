@@ -3,24 +3,27 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-import { Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useLanguage } from "@/i18n/LanguageContext";
+import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 
-const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
-    { name: "Education", href: "#education" },
-    { name: "Contact", href: "#contact" },
+const navLinkKeys = [
+    { key: "about", href: "#about" },
+    { key: "skills", href: "#skills" },
+    { key: "experience", href: "#experience" },
+    { key: "projects", href: "#projects" },
+    { key: "education", href: "#education" },
+    { key: "teaching", href: "#teaching" },
+    { key: "hobbies", href: "#hobbies" },
+    { key: "contact", href: "#contact" },
 ];
 
 export function Navbar() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+    const { t } = useLanguage();
 
     useEffect(() => {
         setMounted(true);
@@ -41,7 +44,7 @@ export function Navbar() {
 
     // Track which section is currently in the viewport
     useEffect(() => {
-        const sectionIds = navLinks.map((link) => link.href.replace("#", ""));
+        const sectionIds = navLinkKeys.map((link) => link.href.replace("#", ""));
         const observers: IntersectionObserver[] = [];
 
         sectionIds.forEach((id) => {
@@ -81,11 +84,11 @@ export function Navbar() {
 
                 {/* Desktop Navigation */}
                 <div className="hidden items-center gap-1 md:flex">
-                    {navLinks.map((link) => {
+                    {navLinkKeys.map((link) => {
                         const isActive = activeSection === link.href.replace("#", "");
                         return (
                             <a
-                                key={link.name}
+                                key={link.key}
                                 href={link.href}
                                 className={cn(
                                     "relative rounded-lg px-3 py-2 text-sm font-medium transition-colors",
@@ -104,13 +107,15 @@ export function Navbar() {
                                         }}
                                     />
                                 )}
-                                <span className="relative z-10">{link.name}</span>
+                                <span className="relative z-10">{t(`nav.${link.key}`)}</span>
                             </a>
                         );
                     })}
                 </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2">
+                    <LanguageSwitcher />
+
                     {mounted && (
                         <button
                             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -166,11 +171,11 @@ export function Navbar() {
                         className="absolute top-full left-0 w-full border-b border-slate-900 bg-slate-950/95 backdrop-blur-md px-6 py-8 md:hidden"
                     >
                         <div className="flex flex-col gap-4">
-                            {navLinks.map((link) => {
+                            {navLinkKeys.map((link) => {
                                 const isActive = activeSection === link.href.replace("#", "");
                                 return (
                                     <a
-                                        key={link.name}
+                                        key={link.key}
                                         href={link.href}
                                         className={cn(
                                             "rounded-lg px-4 py-3 text-lg font-medium transition-all",
@@ -180,7 +185,7 @@ export function Navbar() {
                                         )}
                                         onClick={() => setIsMobileMenuOpen(false)}
                                     >
-                                        {link.name}
+                                        {t(`nav.${link.key}`)}
                                     </a>
                                 );
                             })}

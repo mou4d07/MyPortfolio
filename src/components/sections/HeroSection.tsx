@@ -5,8 +5,11 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 export function HeroSection() {
+    const { t } = useLanguage();
+
     return (
         <section id="hero" className="relative z-0 flex min-h-screen flex-col items-center justify-center overflow-hidden">
             {/* Background Image Container */}
@@ -36,7 +39,7 @@ export function HeroSection() {
             />
 
             <div className="container relative z-10 mx-auto px-6 max-w-6xl lg:pl-10">
-                <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+                <div className="grid grid-cols-[1fr_auto] items-center gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-12">
 
                     {/* LEFT COLUMN: TEXT CONTENT */}
                     <div className="text-left order-2 lg:order-1">
@@ -46,9 +49,9 @@ export function HeroSection() {
                             transition={{ duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
                         >
                             <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-foreground md:text-7xl lg:text-8xl">
-                                Mounir{" "}
+                                {t("hero.firstName")}{" "}
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
-                                    Boudmagh
+                                    {t("hero.lastName")}
                                 </span>
                             </h1>
                         </motion.div>
@@ -59,8 +62,8 @@ export function HeroSection() {
                             transition={{ delay: 0.2, duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
                         >
                             <h2 className="mb-8 text-xl font-medium text-muted md:text-2xl">
-                                Full-Stack Developer <span className="text-blue-500">|</span> DevOps Engineer{" "}
-                                <span className="text-blue-500">|</span> IT Systems Architect
+                                {t("hero.subtitle1")} <span className="text-blue-500">|</span> {t("hero.subtitle2")}{" "}
+                                <span className="text-blue-500">|</span> {t("hero.subtitle3")}
                             </h2>
                         </motion.div>
 
@@ -70,7 +73,7 @@ export function HeroSection() {
                             transition={{ delay: 0.4, duration: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
                             className="mb-10 max-w-2xl text-lg text-muted"
                         >
-                            Bridging the gap between scalable software engineering and robust IT infrastructure.
+                            {t("hero.description")}
                         </motion.p>
 
                         <motion.div
@@ -80,11 +83,11 @@ export function HeroSection() {
                             className="flex flex-col gap-4 sm:flex-row"
                         >
                             <Button asAnchor href="#projects" variant="primary">
-                                View Projects
+                                {t("hero.viewProjects")}
                                 <ArrowRight className="h-4 w-4" />
                             </Button>
                             <Button asAnchor href="/cv.pdf" variant="secondary" download="Mounir_Boudmagh_CV.pdf">
-                                Download CV
+                                {t("hero.downloadCV")}
                                 <Download className="h-4 w-4" />
                             </Button>
                         </motion.div>
@@ -95,14 +98,14 @@ export function HeroSection() {
                         initial={{ opacity: 0, scale: 0.8, x: 50 }}
                         animate={{ opacity: 1, scale: 1, x: 0 }}
                         transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
-                        className="relative mx-auto max-w-[350px] lg:ml-auto lg:mr-0 order-1 lg:order-2"
+                        className="relative mx-auto max-w-[120px] sm:max-w-[200px] lg:max-w-[350px] lg:ml-auto lg:mr-0 order-1 lg:order-2"
                     >
                         {/* Glow effect behind image */}
                         <div className="absolute inset-x-0 -bottom-10 -z-10 h-1/2 bg-blue-500/20 blur-3xl opacity-50" />
 
                         <div className="relative">
                             <img
-                                src="/me.png" // Place your photo at public/me.png
+                                src="/me.png"
                                 alt="Mounir Boudmagh"
                                 className="h-auto w-full rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
                             />
@@ -118,7 +121,7 @@ export function HeroSection() {
                 className="absolute bottom-10 z-20"
             >
                 <a href="#about" className="flex flex-col items-center gap-2 text-muted hover:text-blue-400 transition-colors">
-                    <span className="text-xs font-medium uppercase tracking-widest">Scroll</span>
+                    <span className="text-xs font-medium uppercase tracking-widest">{t("hero.scroll")}</span>
                     <ChevronDown className="h-5 w-5 animate-bounce-slow" />
                 </a>
             </motion.div>

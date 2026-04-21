@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "teaching": "Docencia",
+    "hobbies": "Aficiones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "firstName": "Mounir",
+    "lastName": "Boudmagh",
+    "subtitle1": "Desarrollador Full-Stack",
+    "subtitle2": "Ingeniero DevOps",
+    "subtitle3": "Arquitecto de Sistemas IT",
+    "description": "Conectando la ingeniería de software escalable con una infraestructura IT robusta.",
+    "viewProjects": "Ver Proyectos",
+    "downloadCV": "Descargar CV",
+    "scroll": "Desplazar"
+  },
+  "about": {
+    "title": "Sobre",
+    "titleAccent": "Mí",
+    "p1": "Profesional de TI altamente adaptable y líder en desarrollo con más de 8 años de experiencia empresarial conectando la ingeniería de software y la infraestructura IT. Actualmente sirviendo como Jefe de Desarrollo de Aplicaciones, especializado en Desarrollo Web Full-Stack (<accent1>Next.js, ASP.NET Core</accent1>) y metodologías DevOps.",
+    "p2": "Historial comprobado en la arquitectura de aplicaciones escalables, orquestación de despliegues automatizados en servidores web de alta disponibilidad (<accent2>IIS, Nginx</accent2>), y gestión de pipelines CI/CD en Azure DevOps.",
+    "p3": "Aporta experiencia profunda en la optimización de la virtualización empresarial, despliegue de entornos Windows Server y Linux en máquinas virtuales y servidores bare-metal, e investigación en Deep Learning."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "titleAccent": "Técnicas",
+    "categories": {
+      "fullstack": "Desarrollo Full-Stack",
+      "devops": "DevOps & CI/CD",
+      "infrastructure": "Infraestructura & Cloud",
+      "ai": "IA & Machine Learning"
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "titleAccent": "Profesional",
+    "jobs": {
+      "job1": {
+        "title": "Jefe del Servicio de Desarrollo de Aplicaciones",
+        "company": "Algerian Solb",
+        "period": "Mar 2023 – Presente",
+        "desc1": "Diseño y despliegue de soluciones web full-stack escalables (Next.js, ASP.NET Core).",
+        "desc2": "Gestión de pipelines CI/CD de Azure DevOps para despliegues automatizados en IIS y Nginx.",
+        "desc3": "Liderazgo de equipos de ingeniería en diseño y entrega integral de soluciones internas robustas."
+      },
+      "job2": {
+        "title": "Ingeniero de Sistemas",
+        "company": "Algerian Solb",
+        "period": "Feb 2018 – Mar 2023",
+        "desc1": "Despliegue y administración de Windows Server/Linux en máquinas virtuales y servidores físicos.",
+        "desc2": "Optimización de la virtualización empresarial (VMware ESXi, vCenter).",
+        "desc3": "Administración de Active Directory y soluciones de respaldo empresarial (Veeam)."
+      },
+      "job3": {
+        "title": "Propietario de Microempresa & Consultor IT",
+        "company": "Amayas Tech (Freelance)",
+        "period": "Freelance",
+        "desc1": "Arquitectura de infraestructura de extremo a extremo con Proxmox VE y despliegues de dominio completos.",
+        "desc2": "Desarrollo de aplicaciones Web, Móviles y de Escritorio personalizadas para clientes corporativos."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "titleAccent": "Destacados",
+    "project1": {
+      "title": "Sistema de Nómina & Carrera Empresarial",
+      "description": "Digitalización y optimización de procesos de nómina, reemplazando sistemas heredados con una solución moderna automatizada."
+    },
+    "project2": {
+      "title": "Portal Web Corporativo",
+      "description": "Desarrollo de un portal corporativo público altamente escalable con funcionalidad móvil integrada."
+    },
+    "project3": {
+      "title": "Reconocimiento de Acciones Humanas con IA",
+      "description": "Aplicación de investigación doctoral utilizando fusión de datos de audio y esqueleto para reconocimiento de acciones humanas en tiempo real."
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "certificationsTitle": "Certificaciones",
+    "degrees": {
+      "phd": "Doctorando en Informática (Deep Learning)",
+      "phdInstitution": "Universidad BADJI MOKHTAR",
+      "masters": "Máster en Sistemas Embebidos y Movilidad",
+      "mastersInstitution": "Nivel Universitario"
+    }
+  },
+  "languages": {
+    "title": "Idiomas",
+    "arabic": "Árabe",
+    "arabicLevel": "Nativo",
+    "french": "Francés",
+    "frenchLevel": "Profesional completo",
+    "english": "Inglés",
+    "englishLevel": "Profesional funcional"
+  },
+  "teaching": {
+    "title": "Docencia y",
+    "titleAccent": "Publicaciones",
+    "items": {
+      "item1": {
+        "title": "Algoritmia 1 y 2",
+        "institution": "Centro de Formación Didouche Mourad Annaba",
+        "period": "2017 - 2018"
+      },
+      "item2": {
+        "title": "Lenguaje C (Vacante: Trabajos Dirigidos)",
+        "institution": "Universidad BADJI MOKHTAR Sidi Amar Annaba",
+        "period": "2020 - 2021"
+      },
+      "item3": {
+        "title": "Bases de Redes Informáticas",
+        "institution": "APS SCHOOL Annaba",
+        "period": "Marzo 2021"
+      },
+      "item4": {
+        "title": "Lenguaje Python (Vacante: Trabajos Dirigidos)",
+        "institution": "Universidad BADJI MOKHTAR Sidi Amar Annaba",
+        "period": "2020 - 2021"
+      },
+      "item5": {
+        "title": "VMware vSphere",
+        "institution": "IT TALENT SCHOOL Annaba",
+        "period": "Marzo 2023"
+      },
+      "item6": {
+        "title": "ASP.NET Core MVC",
+        "institution": "ALSOLB Annaba",
+        "period": "Enero 2024"
+      },
+      "item7": {
+        "title": "Lenguaje SQL (Vacante: Trabajos Dirigidos)",
+        "institution": "Universidad BADJI MOKHTAR El Bouni Annaba",
+        "period": "Septiembre 2024"
+      },
+      "item8": {
+        "title": "Programación Orientada a Objetos (Vacante: Prácticas)",
+        "institution": "Universidad BADJI MOKHTAR Sidi Amar Annaba",
+        "period": "Febrero 2025"
+      },
+      "item9": {
+        "title": "WordPress para principiantes",
+        "institution": "Numidia School Constantine",
+        "period": "Abril 2025"
+      }
+    },
+    "publicationsTitle": "Publicaciones",
+    "publicationsAccent": "Clave",
+    "publications": {
+      "pub1": {
+        "title": "Reconocimiento de actividad de video basado en la detección de objetos mediante redes neuronales recurrentes",
+        "year": "2021",
+        "source": "5ª Conferencia Internacional sobre Aplicaciones de Ciudades Inteligentes",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-030-66840-2_65"
+      },
+      "pub2": {
+        "title": "Reconocimiento multimodal de acciones humanas para sistemas ubicuos: Atención cruzada de esqueleto y audio",
+        "year": "2026",
+        "source": "Revista Internacional de Tecnologías Móviles Interactivas",
+        "doi": "https://online-journals.org/index.php/i-jim/article/view/58381"
+      }
+    }
+  },
+  "hobbies": {
+    "title": "Intereses y",
+    "titleAccent": "Aficiones",
+    "items": {
+      "hobby1": {
+        "name": "Buceo",
+        "description": "Certificación CMAS FFESSM: P3 + RIFAP"
+      },
+      "hobby2": {
+        "name": "Jardinería"
+      },
+      "hobby3": {
+        "name": "Apicultura"
+      }
+    }
+  },
+  "contact": {
+    "title": "Construyamos Algo",
+    "titleAccent": "Grandioso Juntos",
+    "subtitle": "Actualmente abierto a oportunidades globales remotas en DevOps y Desarrollo Full-Stack.",
+    "email": "Correo Electrónico",
+    "location": "Ubicación",
+    "locationValue": "Argelia (Disponible mundialmente)",
+    "formName": "Nombre",
+    "formNamePlaceholder": "Juan Pérez",
+    "formEmail": "Correo Electrónico",
+    "formEmailPlaceholder": "juan@ejemplo.com",
+    "formMessage": "Mensaje",
+    "formMessagePlaceholder": "Tu mensaje aquí...",
+    "sendButton": "Enviar Mensaje"
+  },
+  "footer": {
+    "builtWith": "Construido con",
+    "and": "y"
+  }
+}

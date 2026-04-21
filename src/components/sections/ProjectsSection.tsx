@@ -1,27 +1,30 @@
 // src/components/sections/ProjectsSection.tsx
+"use client";
+
 import { ExternalLink, Folder } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const projects = [
     {
-        title: "Enterprise Payroll & Career System",
-        description: "Digitized and streamlined payroll processes replacing legacy systems with a modern automated solution.",
+        titleKey: "projects.project1.title",
+        descriptionKey: "projects.project1.description",
         tags: ["Next.js", "ASP.NET Core", "Azure DevOps"],
         link: "#",
-        github: "https://github.com/mboudmagh", // Update with your links
+        github: "https://github.com/mboudmagh",
     },
     {
-        title: "Corporate Web Portal",
-        description: "Engineered a highly scalable public-facing corporate portal with integrated mobile functionality.",
+        titleKey: "projects.project2.title",
+        descriptionKey: "projects.project2.description",
         tags: ["Flutter", "ASP.NET API", "SQL Server", "Azure DevOps"],
         link: "https://www.alsolb-dz.com/",
         github: "https://github.com/mboudmagh",
     },
     {
-        title: "AI Human Action Recognition",
-        description: "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition.",
+        titleKey: "projects.project3.title",
+        descriptionKey: "projects.project3.description",
         tags: ["TensorFlow", "Python", "OpenCV"],
         link: "#",
         github: "https://github.com/mboudmagh",
@@ -29,10 +32,12 @@ const projects = [
 ];
 
 export function ProjectsSection() {
+    const { t } = useLanguage();
+
     return (
         <Section id="projects" className="container mx-auto px-6">
             <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-                Featured <span className="text-blue-400">Projects</span>
+                {t("projects.title")} <span className="text-blue-400">{t("projects.titleAccent")}</span>
             </h2>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -65,11 +70,11 @@ export function ProjectsSection() {
                         </div>
 
                         <h3 className="mb-3 text-xl font-bold text-foreground group-hover:text-blue-400 transition-colors">
-                            {project.title}
+                            {t(project.titleKey)}
                         </h3>
 
                         <p className="mb-6 flex-grow text-sm leading-relaxed text-muted">
-                            {project.description}
+                            {t(project.descriptionKey)}
                         </p>
 
                         <div className="flex flex-wrap gap-2">

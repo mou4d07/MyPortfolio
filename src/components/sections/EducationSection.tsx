@@ -1,20 +1,10 @@
 // src/components/sections/EducationSection.tsx
+"use client";
+
 import { GraduationCap, Award } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
-
-const education = [
-    {
-        degree: "PhD Student in Computer Science (Deep Learning)",
-        institution: "BADJI MOKHTAR University",
-        icon: <GraduationCap className="h-6 w-6 text-blue-400" />,
-    },
-    {
-        degree: "Master's Degree in Embedded Systems and Mobility",
-        institution: "University Level", // Replace with your university name if different
-        icon: <GraduationCap className="h-6 w-6 text-blue-400" />,
-    },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const certifications = [
     "VMware vSphere (v6.7 & V8)",
@@ -23,13 +13,28 @@ const certifications = [
 ];
 
 export function EducationSection() {
+    const { t } = useLanguage();
+
+    const education = [
+        {
+            degree: t("education.degrees.phd"),
+            institution: t("education.degrees.phdInstitution"),
+            icon: <GraduationCap className="h-6 w-6 text-blue-400" />,
+        },
+        {
+            degree: t("education.degrees.masters"),
+            institution: t("education.degrees.mastersInstitution"),
+            icon: <GraduationCap className="h-6 w-6 text-blue-400" />,
+        },
+    ];
+
     return (
         <Section id="education" className="container mx-auto px-6">
             <div className="grid gap-12 lg:grid-cols-2">
                 {/* Education Column */}
                 <div>
                     <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">
-                        <span className="text-blue-400">Education</span>
+                        <span className="text-blue-400">{t("education.title")}</span>
                     </h2>
                     <div className="space-y-4">
                         {education.map((edu, index) => (
@@ -49,7 +54,7 @@ export function EducationSection() {
                 {/* Certifications Column */}
                 <div>
                     <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">
-                        <span className="text-emerald-400">Certifications</span>
+                        <span className="text-emerald-400">{t("education.certificationsTitle")}</span>
                     </h2>
                     <div className="grid gap-4 sm:grid-cols-2">
                         {certifications.map((cert, index) => (
