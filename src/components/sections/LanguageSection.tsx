@@ -6,9 +6,9 @@ import { Card } from "@/components/ui/Card";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const languageData = [
-    { nameKey: "languages.arabic", levelKey: "languages.arabicLevel", pulse: "bg-blue-500" },
-    { nameKey: "languages.french", levelKey: "languages.frenchLevel", pulse: "bg-emerald-500" },
-    { nameKey: "languages.english", levelKey: "languages.englishLevel", pulse: "bg-blue-400" },
+    { nameKey: "languages.arabic", levelKey: "languages.arabicLevel", scoresKey: null, pulse: "bg-blue-500" },
+    { nameKey: "languages.french", levelKey: "languages.frenchLevel", scoresKey: "languages.frenchScores", pulse: "bg-emerald-500" },
+    { nameKey: "languages.english", levelKey: "languages.englishLevel", scoresKey: "languages.englishScores", pulse: "bg-blue-400" },
 ];
 
 export function LanguageSection() {
@@ -25,6 +25,11 @@ export function LanguageSection() {
                         <div className={`mb-4 h-3 w-3 rounded-full ${lang.pulse} animate-pulse shadow-[0_0_10px_rgba(0,0,0,0.5)] shadow-current`} />
                         <h3 className="text-xl font-bold text-foreground">{t(lang.nameKey)}</h3>
                         <p className="text-sm font-medium text-muted mt-1">{t(lang.levelKey)}</p>
+                        {lang.scoresKey && (
+                            <p className="text-xs text-muted/70 mt-2 border-t border-border/50 pt-2 w-full">
+                                {t(lang.scoresKey)}
+                            </p>
+                        )}
                     </Card>
                 ))}
             </div>

@@ -33,8 +33,9 @@
     "categories": {
       "fullstack": "Développement Full-Stack",
       "devops": "DevOps & CI/CD",
-      "infrastructure": "Infrastructure & Cloud",
-      "ai": "IA & Machine Learning"
+      "infrastructure": "Infrastructure & Systèmes",
+      "ai": "IA & Machine Learning",
+      "networking": "Réseaux & Sécurité"
     }
   },
   "experience": {
@@ -45,24 +46,65 @@
         "title": "Chef du Service Développement d'Applications",
         "company": "Algerian Solb",
         "period": "Mars 2023 – Présent",
-        "desc1": "Conception et déploiement de solutions web full-stack évolutives (Next.js, ASP.NET Core).",
-        "desc2": "Gestion des pipelines CI/CD Azure DevOps pour les déploiements automatisés sur IIS et Nginx.",
-        "desc3": "Direction des équipes d'ingénierie dans la conception et la livraison de solutions internes robustes."
+        "location": "Annaba",
+        "desc1": "Gestion d'une équipe de développeurs pour la maintenance et la mise à jour des applications existantes.",
+        "desc2": "Déploiement de la solution DevOps (Azure DevOps) : Git pour la gestion du code, pipelines CI/CD et Test Plans.",
+        "desc3": "Développement d'applications mobiles et web (alsolb-dz.com — Flutter & ASP.NET Core REST API).",
+        "desc4": "Réalisation des applications SEGAO et GDC (ASP.NET Core MVC), Bug tracker et gestion de paie/carrière (Next.js + ASP.NET Core API)."
       },
       "job2": {
+        "title": "Responsable IT — Coupe d'Afrique des Nations U17 (CAN U17)",
+        "company": "Stade d'Annaba",
+        "period": "Mars 2023 – Avr 2023",
+        "location": "Annaba",
+        "desc1": "Gestion d'une équipe de 4 personnes pour les opérations IT du tournoi.",
+        "desc2": "Déploiement réseau (filaire et points d'accès), configuration des postes de travail et imprimantes.",
+        "desc3": "Impression et distribution des feuilles de match (VIP et Média). Résolution des problèmes IT dans le stade."
+      },
+      "job3": {
+        "title": "Responsable IT — Championnat d'Afrique des Nations (CHAN)",
+        "company": "Stade d'Annaba",
+        "period": "Déc 2022 – Fév 2023",
+        "location": "Annaba",
+        "desc1": "Gestion d'une équipe de 10 personnes pour les opérations IT du championnat.",
+        "desc2": "Déploiement réseau (filaire et points d'accès), configuration des postes de travail et imprimantes.",
+        "desc3": "Impression et distribution des feuilles de match (VIP et Média). Support et résolution des problèmes IT."
+      },
+      "job4": {
         "title": "Ingénieur Systèmes",
         "company": "Algerian Solb",
         "period": "Fév 2018 – Mars 2023",
-        "desc1": "Déploiement et administration de Windows Server/Linux sur machines virtuelles et serveurs physiques.",
-        "desc2": "Optimisation de la virtualisation d'entreprise (VMware ESXi, vCenter).",
-        "desc3": "Administration d'Active Directory et solutions de sauvegarde d'entreprise (Veeam)."
+        "location": "Annaba",
+        "desc1": "Installation, administration, maintenance et supervision des systèmes (StoreOnce, Veeam, HPE Simplivity, AD, Exchange, SAP, Endpoint Protection, SCCM, Nagios).",
+        "desc2": "Administration des systèmes de virtualisation (vCenter, VMware ESXi 7.0). SAP Basis : administration et autorisations utilisateurs.",
+        "desc3": "Gestion des sauvegardes et restaurations. Administration des utilisateurs et politiques de sécurité (GPO).",
+        "desc4": "Automatisation du déploiement de serveurs avec Vagrant. Développement de scripts pour l'automatisation de tâches et le reporting."
       },
-      "job3": {
+      "job5": {
+        "title": "Membre de recherche en IA et Journalisme",
+        "company": "AI Journalism for Research and Telework (Dubaï)",
+        "period": "Jan 2021 – Juin 2021",
+        "location": "Dubaï (À distance)",
+        "desc1": "Prévision et détection de fake news à l'aide de méthodes hybrides de deep learning.",
+        "desc2": "Contribution à la recherche sur les applications de l'intelligence artificielle dans le journalisme."
+      },
+      "job6": {
         "title": "Gérant de Micro-Entreprise & Consultant IT",
-        "company": "Amayas Tech (Freelance)",
+        "company": "Amayas Tech",
         "period": "Freelance",
-        "desc1": "Architecture d'infrastructure de bout en bout avec Proxmox VE et déploiements de domaines complets.",
-        "desc2": "Développement d'applications Web, Mobile et Desktop sur mesure pour des clients entreprise."
+        "location": "Annaba",
+        "desc1": "Installation de caméras de surveillance (analogiques et IP), systèmes d'alarme et incendie (Ajax).",
+        "desc2": "Systèmes d'interphones et visiophones. Développement d'applications (Web, Mobile, Desktop). Installation domotique (KNX).",
+        "desc3": "Mise en place du système IT d'une clinique médicale (2023) : réseau LAN (Cisco 2950), caméras IP, Proxmox VE 6.2 avec gestion clinique Bahmni.",
+        "desc4": "Déploiement de domaine dans l'usine Aalafelchark (2021) : Active Directory sous Windows Server 2019, DNS, DHCP, GPO, NAS et solution de sauvegarde."
+      },
+      "job7": {
+        "title": "Stagiaire",
+        "company": "DELTA Electronic",
+        "period": "Fév 2017 – Mai 2017",
+        "location": "Annaba",
+        "desc1": "Réparation d'équipements informatiques (unités centrales, écrans, imprimantes).",
+        "desc2": "Installation de caméras de surveillance."
       }
     }
   },
@@ -71,25 +113,77 @@
     "titleAccent": "Phares",
     "project1": {
       "title": "Système de Paie & Carrière d'Entreprise",
-      "description": "Numérisation et rationalisation des processus de paie, remplaçant les systèmes existants par une solution moderne automatisée."
+      "description": "Numérisation et rationalisation des processus de paie, remplaçant les systèmes existants par une solution moderne automatisée.",
+      "tags": "Next.js, ASP.NET Core API, SQL Server"
     },
     "project2": {
-      "title": "Portail Web d'Entreprise",
-      "description": "Conception d'un portail d'entreprise public hautement évolutif avec fonctionnalité mobile intégrée."
+      "title": "Portail Web d'Entreprise (alsolb-dz.com)",
+      "description": "Conception d'un portail d'entreprise public hautement évolutif avec fonctionnalité mobile intégrée.",
+      "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
       "title": "Reconnaissance d'Actions Humaines par IA",
-      "description": "Application de recherche doctorale utilisant la fusion de données audio et squelettiques pour la reconnaissance d'actions humaines en temps réel."
+      "description": "Application de recherche doctorale utilisant la fusion de données audio et squelettiques pour la reconnaissance et la prédiction d'actions humaines en temps réel.",
+      "tags": "TensorFlow, Keras, Python, OpenCV"
+    },
+    "project4": {
+      "title": "Bug Tracker",
+      "description": "Application interne de suivi des bogues pour l'équipe de développement afin de gérer et tracer les problèmes logiciels.",
+      "tags": "Next.js, ASP.NET Core API"
+    },
+    "project5": {
+      "title": "Application Web SEGAO",
+      "description": "Application web conçue pour la gestion opérationnelle et le suivi des processus métier.",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project6": {
+      "title": "Application Web GDC",
+      "description": "Application web de gestion de documents et de correspondance pour l'usage interne de l'entreprise.",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project7": {
+      "title": "Gestion d'Auto-École",
+      "description": "Application web de gestion d'auto-école full-stack pour la planification, le suivi des élèves et l'administration.",
+      "tags": "PHP, MySQL, JavaScript (LAMP)"
+    },
+    "project8": {
+      "title": "Système IT de Clinique Médicale",
+      "description": "Mise en place complète du système IT : réseau LAN, surveillance IP, hyperviseur Proxmox VE avec gestion clinique Bahmni.",
+      "tags": "Proxmox VE, Cisco 2950, Bahmni"
     }
   },
   "education": {
     "title": "Formation",
     "certificationsTitle": "Certifications",
     "degrees": {
-      "phd": "Doctorant en Informatique (Deep Learning)",
-      "phdInstitution": "Université BADJI MOKHTAR",
+      "phd": "Doctorant en Informatique (Deep Learning : Reconnaissance et Prédiction d'Actions Humaines)",
+      "phdInstitution": "Université BADJI MOKHTAR Sidi Amar — Laboratoire LASE",
+      "phdPeriod": "2019 – Présent",
       "masters": "Master en Systèmes Embarqués et Mobilité",
-      "mastersInstitution": "Niveau Universitaire"
+      "mastersInstitution": "Université BADJI MOKHTAR Sidi Amar",
+      "mastersPeriod": "2016 – 2018",
+      "bsc": "Licence en Informatique",
+      "bscInstitution": "Université BADJI MOKHTAR Sidi Amar",
+      "bscPeriod": "2013 – 2016",
+      "tsDiploma": "Diplôme TS en Maintenance du Matériel Informatique",
+      "tsDiplomaInstitution": "Centre de Formation Didouche Mourad",
+      "tsDiplomaPeriod": "2014 – 2017",
+      "bac": "Baccalauréat Scientifique",
+      "bacInstitution": "Lycée Mohamed Aouachria (Oued Kouba)",
+      "bacPeriod": "2013",
+      "lanCert": "Certificat d'Installation de Réseau LAN",
+      "lanCertInstitution": "École des Sciences Techniques STS",
+      "lanCertPeriod": "2016"
+    },
+    "certifications": {
+      "cert1": "Business Management, Finance for Non-Financial, Communication Interpersonnelle (2025)",
+      "cert2": "Administration Système HPE Simplivity — vSphere 7.0 (2022)",
+      "cert3": "VMware vSphere : Troubleshooting V8 — MC3 Training School (2022)",
+      "cert4": "Spécialisation Entrepreneuriat — University of Maryland (Coursera, 2022)",
+      "cert5": "Certificat Intel Data Center-to-Edge AI (2020)",
+      "cert6": "Fortinet NSE 1 & 2 Network Security Associate (2020)",
+      "cert7": "Attestation VMware vSphere : vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
+      "cert8": "Cisco CCNA Routing & Switching (Niveau 1 et 2, 2018-2019)"
     }
   },
   "languages": {
@@ -97,9 +191,11 @@
     "arabic": "Arabe",
     "arabicLevel": "Langue maternelle",
     "french": "Français",
-    "frenchLevel": "Professionnel complet",
+    "frenchLevel": "Professionnel complet — TCF Canada",
+    "frenchScores": "Lecture : 502 | Écoute : 505 | Écriture : 10 | Oral : 13",
     "english": "Anglais",
-    "englishLevel": "Professionnel courant"
+    "englishLevel": "Professionnel courant — IELTS B2",
+    "englishScores": "Lecture : 6.5 | Écoute : 6.0 | Écriture : 5.5 | Oral : 6.0"
   },
   "teaching": {
     "title": "Enseignement &",
@@ -151,8 +247,8 @@
         "period": "Avr 2025"
       }
     },
-    "publicationsTitle": "Key",
-    "publicationsAccent": "Publications",
+    "publicationsTitle": "Publications",
+    "publicationsAccent": "Clés",
     "publications": {
       "pub1": {
         "title": "Reconnaissance d'activité vidéo basée sur la détection d'objets à l'aide de réseaux de neurones récurrents",
@@ -181,6 +277,19 @@
       },
       "hobby3": {
         "name": "Apiculture"
+      }
+    },
+    "proInterestsTitle": "Intérêts",
+    "proInterestsAccent": "Professionnels",
+    "proInterests": {
+      "interest1": {
+        "name": "IA Agentique"
+      },
+      "interest2": {
+        "name": "DevOps"
+      },
+      "interest3": {
+        "name": "Méthodologie Agile (SCRUM)"
       }
     }
   },

@@ -2,23 +2,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, MapPin } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const jobKeys = [
-    {
-        key: "job1",
-        descCount: 3,
-    },
-    {
-        key: "job2",
-        descCount: 3,
-    },
-    {
-        key: "job3",
-        descCount: 2,
-    },
+    { key: "job1", descCount: 4 },
+    { key: "job2", descCount: 3 },
+    { key: "job3", descCount: 3 },
+    { key: "job4", descCount: 4 },
+    { key: "job5", descCount: 2 },
+    { key: "job6", descCount: 4 },
+    { key: "job7", descCount: 2 },
 ];
 
 export function ExperienceSection() {
@@ -78,6 +73,10 @@ export function ExperienceSection() {
                                         <Calendar className="h-4 w-4 text-blue-400" />
                                         {t(`experience.jobs.${job.key}.period`)}
                                     </span>
+                                </div>
+                                <div className="mb-1 flex items-center gap-1 text-xs text-muted/70">
+                                    <MapPin className="h-3 w-3" />
+                                    {t(`experience.jobs.${job.key}.location`)}
                                 </div>
                                 <h3 className="text-xl font-bold text-foreground">{t(`experience.jobs.${job.key}.title`)}</h3>
                                 <p className="mb-4 font-medium text-blue-400">{t(`experience.jobs.${job.key}.company`)}</p>

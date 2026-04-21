@@ -2,7 +2,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Terminal, Server, Cpu } from "lucide-react";
+import { Code2, Terminal, Server, Cpu, Shield } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
 import { useLanguage } from "@/i18n/LanguageContext";
@@ -11,22 +11,27 @@ const skillCategories = [
     {
         titleKey: "skills.categories.fullstack",
         icon: <Code2 className="h-8 w-8 text-blue-400" />,
-        skills: ["ASP.NET Core (MVC & API)", "Next.js", "TypeScript", "Python", "Flutter", "SQL"],
+        skills: ["C#", "ASP.NET Core (MVC & API)", "Next.js", "TypeScript", "Python", "Flutter", "SQL", "PHP"],
     },
     {
         titleKey: "skills.categories.devops",
         icon: <Terminal className="h-8 w-8 text-emerald-400" />,
-        skills: ["Azure DevOps", "Git", "Docker", "Vagrant", "Nginx", "IIS"],
+        skills: ["Azure DevOps", "Git", "CI/CD Pipelines", "Docker", "Vagrant", "Nginx", "IIS"],
     },
     {
         titleKey: "skills.categories.infrastructure",
         icon: <Server className="h-8 w-8 text-blue-400" />,
-        skills: ["VMware ESXi 7.0", "Proxmox VE", "Windows Server", "CentOS", "RedHat", "Active Directory", "Exchange", "Veeam"],
+        skills: ["VMware ESXi 7.0", "Proxmox VE", "HPE Simplivity", "Windows Server", "Active Directory", "Exchange", "SAP Basis", "Veeam", "StoreOnce", "SCCM", "Nagios", "WSUS", "WDS", "DFS"],
+    },
+    {
+        titleKey: "skills.categories.networking",
+        icon: <Shield className="h-8 w-8 text-emerald-400" />,
+        skills: ["Cisco Switching", "Cisco Routing", "Fortinet NSE", "LAN/WAN", "Sophos", "DNS", "DHCP", "GPO"],
     },
     {
         titleKey: "skills.categories.ai",
-        icon: <Cpu className="h-8 w-8 text-emerald-400" />,
-        skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Convolution Neurol Netwok", "Recurrent Neural Networks", "Transformers"],
+        icon: <Cpu className="h-8 w-8 text-blue-400" />,
+        skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Convolutional Neural Networks", "Recurrent Neural Networks", "Transformers"],
     },
 ];
 
@@ -60,7 +65,7 @@ export function SkillsSection() {
             </h2>
 
             <motion.div
-                className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
+                className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"

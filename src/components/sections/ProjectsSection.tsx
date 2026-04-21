@@ -11,7 +11,7 @@ const projects = [
     {
         titleKey: "projects.project1.title",
         descriptionKey: "projects.project1.description",
-        tags: ["Next.js", "ASP.NET Core", "Azure DevOps"],
+        tags: ["Next.js", "ASP.NET Core API", "SQL Server"],
         link: "#",
         github: "https://github.com/mboudmagh",
     },
@@ -25,7 +25,42 @@ const projects = [
     {
         titleKey: "projects.project3.title",
         descriptionKey: "projects.project3.description",
-        tags: ["TensorFlow", "Python", "OpenCV"],
+        tags: ["TensorFlow", "Keras", "Python", "OpenCV"],
+        link: "#",
+        github: "https://github.com/mboudmagh",
+    },
+    {
+        titleKey: "projects.project4.title",
+        descriptionKey: "projects.project4.description",
+        tags: ["Next.js", "ASP.NET Core API"],
+        link: "#",
+        github: "https://github.com/mboudmagh",
+    },
+    {
+        titleKey: "projects.project5.title",
+        descriptionKey: "projects.project5.description",
+        tags: ["ASP.NET Core MVC", "SQL Server"],
+        link: "https://alsolb-dz.com/segao",
+        github: "https://github.com/mboudmagh",
+    },
+    {
+        titleKey: "projects.project6.title",
+        descriptionKey: "projects.project6.description",
+        tags: ["ASP.NET Core MVC", "SQL Server"],
+        link: "https://alsolb-dz.com/gdc",
+        github: "https://github.com/mboudmagh",
+    },
+    {
+        titleKey: "projects.project7.title",
+        descriptionKey: "projects.project7.description",
+        tags: ["PHP", "MySQL", "JavaScript"],
+        link: "#",
+        github: "https://github.com/mboudmagh",
+    },
+    {
+        titleKey: "projects.project8.title",
+        descriptionKey: "projects.project8.description",
+        tags: ["Proxmox VE", "Cisco 2950", "Bahmni"],
         link: "#",
         github: "https://github.com/mboudmagh",
     },
@@ -57,15 +92,17 @@ export function ProjectsSection() {
                                 >
                                     <SiGithub size={20} />
                                 </a>
-                                <a
-                                    href={project.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-colors"
-                                    aria-label="Live Project"
-                                >
-                                    <ExternalLink className="h-5 w-5" />
-                                </a>
+                                {project.link !== "#" && (
+                                    <a
+                                        href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-blue-400 transition-colors"
+                                        aria-label="Live Project"
+                                    >
+                                        <ExternalLink className="h-5 w-5" />
+                                    </a>
+                                )}
                             </div>
                         </div>
 

@@ -47,10 +47,10 @@ export function ContactSection() {
                         </div>
 
                         <div className="pt-8 flex gap-6">
-                            <a href="https://github.com/MounirBoudmagh" className="text-muted hover:text-foreground transition-colors">
+                            <a href="https://github.com/mou4d07" className="text-muted hover:text-foreground transition-colors">
                                 <SiGithub size={32} />
                             </a>
-                            <a href="www.linkedin.com/in/mounir-boudmagh-9b81a5168" className="text-muted hover:text-blue-400 transition-colors">
+                            <a href="https://www.linkedin.com/in/mounir-boudmagh-9b81a5168" className="text-muted hover:text-blue-400 transition-colors">
                                 <FaLinkedin size={32} />
                             </a>
                         </div>

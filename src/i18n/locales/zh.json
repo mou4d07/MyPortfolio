@@ -25,7 +25,7 @@
     "titleAccent": "我",
     "p1": "高度适应性的IT专业人士和开发领导者，拥有超过8年的企业经验，将软件工程和IT基础设施相结合。目前担任应用开发服务主管，专注于全栈Web开发（<accent1>Next.js, ASP.NET Core</accent1>）和DevOps方法论。",
     "p2": "在架构可扩展应用程序、编排向高可用性Web服务器（<accent2>IIS, Nginx</accent2>）的自动化部署以及管理Azure DevOps中的CI/CD管道方面有着良好的业绩记录。",
-    "p3": "在优化企业虚拟化、在虚拟机和裸机服务器上部署Windows Server and Linux环境以及AI深度学习研究方面拥有深厚的基础专业知识。"
+    "p3": "在优化企业虚拟化、在虚拟机和裸机服务器上部署Windows Server和Linux环境以及AI深度学习研究方面拥有深厚的基础专业知识。"
   },
   "skills": {
     "title": "技术",
@@ -33,8 +33,9 @@
     "categories": {
       "fullstack": "全栈开发",
       "devops": "DevOps与CI/CD",
-      "infrastructure": "基础设施与云",
-      "ai": "人工智能与机器学习"
+      "infrastructure": "基础设施与系统",
+      "ai": "人工智能与机器学习",
+      "networking": "网络与安全"
     }
   },
   "experience": {
@@ -45,24 +46,65 @@
         "title": "应用开发服务主管",
         "company": "Algerian Solb",
         "period": "2023年3月 – 至今",
-        "desc1": "设计和部署可扩展的全栈Web解决方案（Next.js, ASP.NET Core）。",
-        "desc2": "管理Azure DevOps CI/CD管道，实现IIS和Nginx的自动化部署。",
-        "desc3": "领导工程团队进行端到端的设计和交付强大的内部解决方案。"
+        "location": "安纳巴",
+        "desc1": "管理开发团队，负责现有应用程序的维护和更新。",
+        "desc2": "部署DevOps解决方案（Azure DevOps）：Git代码管理、CI/CD管道和测试计划。",
+        "desc3": "移动和Web应用开发（alsolb-dz.com — Flutter和ASP.NET Core REST API）。",
+        "desc4": "构建SEGAO和GDC Web应用（ASP.NET Core MVC），Bug跟踪器和薪资/职业管理（Next.js + ASP.NET Core API）。"
       },
       "job2": {
+        "title": "IT经理 — 非洲杯U17（CAN U17）",
+        "company": "安纳巴体育场",
+        "period": "2023年3月 – 2023年4月",
+        "location": "安纳巴",
+        "desc1": "管理4人团队负责赛事IT运营。",
+        "desc2": "网络部署（有线和无线接入点），台式机和打印机配置。",
+        "desc3": "比赛期间打印和分发记分表（VIP和媒体）。解决体育场内IT问题。"
+      },
+      "job3": {
+        "title": "IT经理 — 非洲国家锦标赛（CHAN）",
+        "company": "安纳巴体育场",
+        "period": "2022年12月 – 2023年2月",
+        "location": "安纳巴",
+        "desc1": "管理10人团队负责锦标赛IT运营。",
+        "desc2": "网络部署（有线和无线接入点），台式机和打印机配置。",
+        "desc3": "比赛期间打印和分发记分表（VIP和媒体）。支持和解决IT问题。"
+      },
+      "job4": {
         "title": "系统工程师",
         "company": "Algerian Solb",
         "period": "2018年2月 – 2023年3月",
-        "desc1": "在虚拟机和裸机服务器上部署和管理Windows Server/Linux。",
-        "desc2": "优化企业虚拟化（VMware ESXi, vCenter）。",
-        "desc3": "管理Active Directory和企业备份解决方案（Veeam）。"
+        "location": "安纳巴",
+        "desc1": "安装、管理、维护和监控系统（StoreOnce、Veeam、HPE Simplivity、AD、Exchange、SAP、Endpoint Protection、SCCM、Nagios）。",
+        "desc2": "管理虚拟化系统（vCenter、VMware ESXi 7.0）。SAP Basis：用户管理和授权。",
+        "desc3": "管理备份和恢复。用户管理和安全策略（GPO）。",
+        "desc4": "使用Vagrant自动化服务器部署。开发脚本用于任务自动化和报告生成。"
       },
-      "job3": {
+      "job5": {
+        "title": "AI新闻研究成员",
+        "company": "AI Journalism for Research and Telework（迪拜）",
+        "period": "2021年1月 – 2021年6月",
+        "location": "迪拜（远程）",
+        "desc1": "使用混合深度学习方法进行预测和假新闻检测。",
+        "desc2": "参与人工智能在新闻领域应用的研究。"
+      },
+      "job6": {
         "title": "微型企业主与IT顾问",
-        "company": "Amayas Tech（自由职业）",
+        "company": "Amayas Tech",
         "period": "自由职业",
-        "desc1": "使用Proxmox VE设计端到端基础设施和完整域部署。",
-        "desc2": "为企业客户开发定制Web、移动和桌面应用程序。"
+        "location": "安纳巴",
+        "desc1": "安装监控摄像头（模拟和IP），报警和消防系统（Ajax）。",
+        "desc2": "对讲机和可视门铃系统。应用开发（Web、移动、桌面）。智能家居安装（KNX）。",
+        "desc3": "医疗诊所IT系统实施（2023年）：LAN网络（Cisco 2950）、IP摄像头、Proxmox VE 6.2与Bahmni诊所管理。",
+        "desc4": "Aalafelchark工厂域部署（2021年）：Windows Server 2019上的Active Directory、DNS、DHCP、GPO、NAS和备份解决方案。"
+      },
+      "job7": {
+        "title": "实习生",
+        "company": "DELTA Electronic",
+        "period": "2017年2月 – 2017年5月",
+        "location": "安纳巴",
+        "desc1": "修理计算机设备（主机、显示器、打印机）。",
+        "desc2": "安装监控摄像头。"
       }
     }
   },
@@ -71,25 +113,77 @@
     "titleAccent": "项目",
     "project1": {
       "title": "企业薪资与职业系统",
-      "description": "数字化并简化薪资流程，用现代自动化解决方案替代遗留系统。"
+      "description": "数字化并简化薪资流程，用现代自动化解决方案替代遗留系统。",
+      "tags": "Next.js, ASP.NET Core API, SQL Server"
     },
     "project2": {
-      "title": "企业门户网站",
-      "description": "设计了一个高度可扩展的面向公众的企业门户，集成了移动功能。"
+      "title": "企业门户网站 (alsolb-dz.com)",
+      "description": "设计了一个高度可扩展的面向公众的企业门户，集成了移动功能。",
+      "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
       "title": "AI人体动作识别",
-      "description": "博士研究应用，利用音频和骨骼数据融合进行实时人体动作识别。"
+      "description": "博士研究应用，利用音频和骨骼数据融合进行实时人体动作识别和预测。",
+      "tags": "TensorFlow, Keras, Python, OpenCV"
+    },
+    "project4": {
+      "title": "Bug跟踪器",
+      "description": "内部Bug跟踪应用程序，供开发团队管理和追踪软件问题。",
+      "tags": "Next.js, ASP.NET Core API"
+    },
+    "project5": {
+      "title": "SEGAO Web应用",
+      "description": "用于运营管理和业务流程跟踪的Web应用程序。",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project6": {
+      "title": "GDC Web应用",
+      "description": "用于企业内部文档和信函管理的Web应用程序。",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project7": {
+      "title": "驾校管理系统",
+      "description": "全栈驾校管理Web应用，用于排课、学员跟踪和行政管理。",
+      "tags": "PHP, MySQL, JavaScript (LAMP)"
+    },
+    "project8": {
+      "title": "医疗诊所IT系统",
+      "description": "端到端IT系统实施：LAN网络、IP监控、Proxmox VE虚拟机与Bahmni诊所管理。",
+      "tags": "Proxmox VE, Cisco 2950, Bahmni"
     }
   },
   "education": {
     "title": "教育",
     "certificationsTitle": "认证",
     "degrees": {
-      "phd": "计算机科学博士生（深度学习）",
-      "phdInstitution": "BADJI MOKHTAR大学",
+      "phd": "计算机科学博士生（深度学习：人体动作识别与预测）",
+      "phdInstitution": "BADJI MOKHTAR Sidi Amar大学 — LASE实验室",
+      "phdPeriod": "2019 – 至今",
       "masters": "嵌入式系统与移动性硕士",
-      "mastersInstitution": "大学级别"
+      "mastersInstitution": "BADJI MOKHTAR Sidi Amar大学",
+      "mastersPeriod": "2016 – 2018",
+      "bsc": "计算机科学学士学位",
+      "bscInstitution": "BADJI MOKHTAR Sidi Amar大学",
+      "bscPeriod": "2013 – 2016",
+      "tsDiploma": "计算机硬件维护TS文凭",
+      "tsDiplomaInstitution": "Didouche Mourad培训中心",
+      "tsDiplomaPeriod": "2014 – 2017",
+      "bac": "科学类高中毕业证",
+      "bacInstitution": "Mohamed Aouachria高中（Oued Kouba）",
+      "bacPeriod": "2013",
+      "lanCert": "计算机局域网安装证书",
+      "lanCertInstitution": "STS技术科学学校",
+      "lanCertPeriod": "2016"
+    },
+    "certifications": {
+      "cert1": "商业管理、非财务人员财务、人际沟通 (2025)",
+      "cert2": "HPE Simplivity系统管理 — vSphere 7.0 (2022)",
+      "cert3": "VMware vSphere: 故障排除V8 — MC3 Training School (2022)",
+      "cert4": "创业专业化 — 马里兰大学 (Coursera, 2022)",
+      "cert5": "Intel数据中心到边缘AI证书 (2020)",
+      "cert6": "Fortinet NSE 1 & 2网络安全助理 (2020)",
+      "cert7": "VMware vSphere认证: vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
+      "cert8": "Cisco CCNA路由与交换 (1级和2级, 2018-2019)"
     }
   },
   "languages": {
@@ -97,9 +191,11 @@
     "arabic": "阿拉伯语",
     "arabicLevel": "母语",
     "french": "法语",
-    "frenchLevel": "完全专业",
+    "frenchLevel": "完全专业 — TCF Canada",
+    "frenchScores": "阅读: 502 | 听力: 505 | 写作: 10 | 口语: 13",
     "english": "英语",
-    "englishLevel": "工作专业"
+    "englishLevel": "工作专业 — IELTS B2",
+    "englishScores": "阅读: 6.5 | 听力: 6.0 | 写作: 5.5 | 口语: 6.0"
   },
   "teaching": {
     "title": "教学与",
@@ -141,7 +237,7 @@
         "period": "2024年9月"
       },
       "item8": {
-        "title": "面向对象编程（兼职补习）",
+        "title": "面向对象编程（兼职实验课）",
         "institution": "安纳巴 BADJI MOKHTAR Sidi Amar 大学",
         "period": "2025年2月"
       },
@@ -181,6 +277,19 @@
       },
       "hobby3": {
         "name": "养蜂"
+      }
+    },
+    "proInterestsTitle": "专业",
+    "proInterestsAccent": "兴趣",
+    "proInterests": {
+      "interest1": {
+        "name": "代理AI"
+      },
+      "interest2": {
+        "name": "DevOps"
+      },
+      "interest3": {
+        "name": "敏捷方法论 (SCRUM)"
       }
     }
   },

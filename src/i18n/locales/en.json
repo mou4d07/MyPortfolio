@@ -33,8 +33,9 @@
     "categories": {
       "fullstack": "Full-Stack Development",
       "devops": "DevOps & CI/CD",
-      "infrastructure": "Infrastructure & Cloud",
-      "ai": "AI & Machine Learning"
+      "infrastructure": "Infrastructure & Systems",
+      "ai": "AI & Machine Learning",
+      "networking": "Networking & Security"
     }
   },
   "experience": {
@@ -45,24 +46,65 @@
         "title": "Head of Application Development Service",
         "company": "Algerian Solb",
         "period": "Mar 2023 – Present",
-        "desc1": "Architected and deployed scalable full-stack web solutions (Next.js, ASP.NET Core).",
-        "desc2": "Managed Azure DevOps CI/CD pipelines for automated deployments to IIS and Nginx.",
-        "desc3": "Led engineering teams in end-to-end design and delivery of robust internal solutions."
+        "location": "Annaba",
+        "desc1": "Managing a team of developers for maintaining and updating existing applications.",
+        "desc2": "Deployment of DevOps solution (Azure DevOps): Git for code management, CI/CD pipelines, and Test Plans.",
+        "desc3": "Mobile and web application development (alsolb-dz.com — Flutter & ASP.NET Core REST API).",
+        "desc4": "Built SEGAO and GDC web apps (ASP.NET Core MVC), Bug tracker and Payroll/Career management (Next.js + ASP.NET Core API)."
       },
       "job2": {
+        "title": "IT Manager — African Cup of Nations U17 (CAN U17)",
+        "company": "Annaba Stadium",
+        "period": "Mar 2023 – Apr 2023",
+        "location": "Annaba",
+        "desc1": "Managed a team of 4 people for the tournament IT operations.",
+        "desc2": "Network deployment (wired and access points), desktops and printers configuration.",
+        "desc3": "Printed and distributed score sheets during the games (VIP and Media). Troubleshot IT problems in the stadium."
+      },
+      "job3": {
+        "title": "IT Manager — African Nations Championship (CHAN)",
+        "company": "Annaba Stadium",
+        "period": "Dec 2022 – Feb 2023",
+        "location": "Annaba",
+        "desc1": "Managed a team of 10 people for the championship IT operations.",
+        "desc2": "Network deployment (wired and access points), desktops and printers configuration.",
+        "desc3": "Printed and distributed score sheets during the games (VIP and Media). Supported and troubleshot IT problems."
+      },
+      "job4": {
         "title": "System Engineer",
         "company": "Algerian Solb",
         "period": "Feb 2018 – Mar 2023",
-        "desc1": "Deployed and administered Windows Server/Linux on VMs and bare-metal servers.",
-        "desc2": "Optimized enterprise virtualization (VMware ESXi, vCenter).",
-        "desc3": "Administered Active Directory and enterprise backup solutions (Veeam)."
+        "location": "Annaba",
+        "desc1": "Installing, administering, maintaining, and monitoring systems (StoreOnce, Veeam, HPE Simplivity, AD, Exchange, SAP, Endpoint Protection, SCCM, Nagios).",
+        "desc2": "Administering and managing virtualization systems (vCenter, VMware ESXi 7.0). SAP Basis: user administration and authorization.",
+        "desc3": "Managed backups and recoveries. User administration and security policies (GPO).",
+        "desc4": "Server deployment automation using Vagrant. Development of scripts for task automation and reporting."
       },
-      "job3": {
+      "job5": {
+        "title": "AI Journalism Research Member",
+        "company": "AI Journalism for Research and Telework (Dubai)",
+        "period": "Jan 2021 – Jun 2021",
+        "location": "Dubai (Remote)",
+        "desc1": "Forecasting and fake news detection using hybrid deep learning methods.",
+        "desc2": "Contributed to research on artificial intelligence applications in journalism."
+      },
+      "job6": {
         "title": "Micro-Enterprise Owner & IT Consultant",
-        "company": "Amayas Tech (Freelance)",
+        "company": "Amayas Tech",
         "period": "Freelance",
-        "desc1": "Architected end-to-end infrastructure with Proxmox VE and complete domain deployments.",
-        "desc2": "Developed custom Web, Mobile, and Desktop applications for corporate clients."
+        "location": "Annaba",
+        "desc1": "Surveillance camera installation (analog and IP), alarm and fire systems (Ajax).",
+        "desc2": "Interphone and videophone systems. Application development (Web, Mobile, Desktop). Domotics installation (KNX).",
+        "desc3": "Implementation of IT system in a medical clinic (2023): LAN network (Cisco 2950), IP cameras, Proxmox VE 6.2 with Bahmni clinic management.",
+        "desc4": "Domain deployment in Aalafelchark factory (2021): Active Directory on Windows Server 2019, DNS, DHCP, GPO, NAS, and backup solution."
+      },
+      "job7": {
+        "title": "Trainee",
+        "company": "DELTA Electronic",
+        "period": "Feb 2017 – May 2017",
+        "location": "Annaba",
+        "desc1": "Repair of computer equipment (central units, screens, printers).",
+        "desc2": "Installation of surveillance cameras."
       }
     }
   },
@@ -71,35 +113,89 @@
     "titleAccent": "Projects",
     "project1": {
       "title": "Enterprise Payroll & Career System",
-      "description": "Digitized and streamlined payroll processes replacing legacy systems with a modern automated solution."
+      "description": "Digitized and streamlined payroll processes replacing legacy systems with a modern automated solution.",
+      "tags": "Next.js, ASP.NET Core API, SQL Server"
     },
     "project2": {
-      "title": "Corporate Web Portal",
-      "description": "Engineered a highly scalable public-facing corporate portal with integrated mobile functionality."
+      "title": "Corporate Web Portal (alsolb-dz.com)",
+      "description": "Engineered a highly scalable public-facing corporate portal with integrated mobile functionality.",
+      "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
       "title": "AI Human Action Recognition",
-      "description": "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition."
+      "description": "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition and prediction.",
+      "tags": "TensorFlow, Keras, Python, OpenCV"
+    },
+    "project4": {
+      "title": "Bug Tracker",
+      "description": "Internal bug tracking application for the development team to manage and trace software issues.",
+      "tags": "Next.js, ASP.NET Core API"
+    },
+    "project5": {
+      "title": "SEGAO Web Application",
+      "description": "Web application built for operational management and business process tracking.",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project6": {
+      "title": "GDC Web Application",
+      "description": "Document and correspondence management web application for internal enterprise use.",
+      "tags": "ASP.NET Core MVC, SQL Server"
+    },
+    "project7": {
+      "title": "Driving School Management",
+      "description": "Full-stack driving school management web application for scheduling, student tracking, and administration.",
+      "tags": "PHP, MySQL, JavaScript (LAMP)"
+    },
+    "project8": {
+      "title": "Medical Clinic IT System",
+      "description": "End-to-end IT system implementation: LAN network, IP surveillance, Proxmox VE hypervisor with Bahmni clinic management.",
+      "tags": "Proxmox VE, Cisco 2950, Bahmni"
     }
   },
   "education": {
     "title": "Education",
     "certificationsTitle": "Certifications",
     "degrees": {
-      "phd": "PhD Student in Computer Science (Deep Learning)",
-      "phdInstitution": "BADJI MOKHTAR University",
+      "phd": "PhD Student in Computer Science (Deep Learning: Human Action Recognition and Prediction)",
+      "phdInstitution": "BADJI MOKHTAR Sidi Amar University — LASE Laboratory",
+      "phdPeriod": "2019 – Present",
       "masters": "Master's Degree in Embedded Systems and Mobility",
-      "mastersInstitution": "University Level"
+      "mastersInstitution": "BADJI MOKHTAR Sidi Amar University",
+      "mastersPeriod": "2016 – 2018",
+      "bsc": "Computer Science Degree (Licence)",
+      "bscInstitution": "BADJI MOKHTAR Sidi Amar University",
+      "bscPeriod": "2013 – 2016",
+      "tsDiploma": "TS Diploma in Computer Hardware Maintenance",
+      "tsDiplomaInstitution": "Didouche Mourad Training Center",
+      "tsDiplomaPeriod": "2014 – 2017",
+      "bac": "Scientific Baccalaureate",
+      "bacInstitution": "Mohamed Aouachria High School (Oued Kouba)",
+      "bacPeriod": "2013",
+      "lanCert": "Computer LAN Network Installation Certificate",
+      "lanCertInstitution": "STS Technical Science School",
+      "lanCertPeriod": "2016"
+    },
+    "certifications": {
+      "cert1": "Business Management, Finance for Non-Financial, Interpersonal Communication (2025)",
+      "cert2": "HPE Simplivity System Administration — vSphere 7.0 (2022)",
+      "cert3": "VMware vSphere: Troubleshooting V8 — MC3 Training School (2022)",
+      "cert4": "Entrepreneurship Specialization — University of Maryland (Coursera, 2022)",
+      "cert5": "Intel Data Center-to-Edge AI Certificate (2020)",
+      "cert6": "Fortinet NSE 1 & 2 Network Security Associate (2020)",
+      "cert7": "VMware vSphere Attestation: vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
+      "cert8": "Cisco CCNA Routing & Switching (Level 1 and 2, 2018-2019)"
     }
   },
   "languages": {
     "title": "Languages",
     "arabic": "Arabic",
-    "arabicLevel": "Native",
+    "arabicLevel": "Native (Mother Tongue)",
     "french": "French",
-    "frenchLevel": "Full Professional",
+    "frenchLevel": "Full Professional — TCF Canada",
+    "frenchScores": "Reading: 502 | Listening: 505 | Writing: 10 | Speaking: 13",
     "english": "English",
-    "englishLevel": "Professional Working"
+    "englishLevel": "Professional Working — IELTS B2",
+    "englishScores": "Reading: 6.5 | Listening: 6.0 | Writing: 5.5 | Speaking: 6.0"
   },
   "teaching": {
     "title": "Teaching &",
@@ -181,6 +277,19 @@
       },
       "hobby3": {
         "name": "Beekeeping"
+      }
+    },
+    "proInterestsTitle": "Professional",
+    "proInterestsAccent": "Interests",
+    "proInterests": {
+      "interest1": {
+        "name": "Agentic AI"
+      },
+      "interest2": {
+        "name": "DevOps"
+      },
+      "interest3": {
+        "name": "Agile Methodology (SCRUM)"
       }
     }
   },
