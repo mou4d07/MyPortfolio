@@ -142,8 +142,8 @@
       "tags": "ASP.NET Core MVC, SQL Server"
     },
     "project7": {
-      "title": "驾校管理系统",
-      "description": "全栈驾校管理Web应用，用于排课、学员跟踪和行政管理。",
+      "title": "电子文档管理系统",
+      "description": "电子文档管理系统 (EDMS) 是一个用于管理和跟踪文档的基于Web的应用程序。",
       "tags": "PHP, MySQL, JavaScript (LAMP)"
     },
     "project8": {
@@ -173,7 +173,11 @@
       "bacPeriod": "2013",
       "lanCert": "计算机局域网安装证书",
       "lanCertInstitution": "STS技术科学学校",
-      "lanCertPeriod": "2016"
+      "lanCertPeriod": "2016",
+      "phdDetails": "我的研究领域位于计算机视觉、工业信息学和边缘计算的交叉点。我专注于推进工业安全，从被动式的回顾性监控转向早期行动预测 (EAP)——在重型、高风险的制造环境中，于事故发生前捕捉人类行为意图。\n\n核心技术专长：\n• 多模态深度学习：设计三流时空变换器，融合 RGB 外观、微调的骨骼动力学（HRNet + CTR-GCN）和物体交互（YOLOv8），即使在严重的工业视觉噪声和遮挡情况下也能保持高预测精度。\n• 网络物理集成：通过高速 Protobuf 序列化与工业 PLC（例如 Nidec S7-414-3 DP）接口，将先进的 AI 流水线与工厂车间自动化连接起来，从而实现基于实时机器状态（运行/停止）的上下文感知风险评估。\n• 可扩展的 AI 基础设施：分析集中式企业虚拟化（HPE SimpliVity + NVIDIA）的性能瓶颈L40 硬件）推动架构向分布式多智能体系统 (MAS) 和确定性边缘计算的转变",
+      "mastersDetails": "开发了一款支持 NFC 功能的饮料自动售货机，集成了移动支付功能，并开发了 Flexy NFC 移动应用程序，用于非接触式访问和支付解决方案。",
+      "bscDetails": "为一所驾校开发了一套完整的管理应用程序，包括学生注册、课程安排和付款跟踪。",
+      "tsDiplomaDetails": "使用 Raspberry Pi 和多个传感器构建了一个智能家居原型，用于照明、温度和安全控制。"
     },
     "certifications": {
       "cert1": "商业管理、非财务人员财务、人际沟通 (2025)",
@@ -183,7 +187,15 @@
       "cert5": "Intel数据中心到边缘AI证书 (2020)",
       "cert6": "Fortinet NSE 1 & 2网络安全助理 (2020)",
       "cert7": "VMware vSphere认证: vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
-      "cert8": "Cisco CCNA路由与交换 (1级和2级, 2018-2019)"
+      "cert8": "Cisco CCNA路由与交换 (1级和2级, 2018-2019)",
+      "cert1Details": "Details will be added here.",
+      "cert2Details": "Details will be added here.",
+      "cert3Details": "Details will be added here.",
+      "cert4Details": "Details will be added here.",
+      "cert5Details": "Details will be added here.",
+      "cert6Details": "Details will be added here.",
+      "cert7Details": "Details will be added here.",
+      "cert8Details": "Details will be added here."
     }
   },
   "languages": {
@@ -306,7 +318,10 @@
     "formEmailPlaceholder": "zhang@example.com",
     "formMessage": "消息",
     "formMessagePlaceholder": "在这里输入您的消息...",
-    "sendButton": "发送消息"
+    "sendButton": "发送消息",
+    "sending": "正在发送...",
+    "successMessage": "消息发送成功！我将尽快回复您。",
+    "errorMessage": "发送失败，请稍后重试."
   },
   "footer": {
     "builtWith": "使用",

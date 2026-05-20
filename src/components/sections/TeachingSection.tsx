@@ -7,7 +7,7 @@ import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
 import { useLanguage } from "@/i18n/LanguageContext";
 
-const teachingKeys = ["item1", "item2", "item3", "item4", "item5", "item6", "item7", "item8", "item9"];
+const teachingKeys = ["item4", "item5", "item6", "item7", "item8", "item9"];
 const publicationKeys = ["pub1", "pub2"];
 
 export function TeachingSection() {
@@ -21,7 +21,7 @@ export function TeachingSection() {
                     <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                         {t("teaching.title")} <span className="text-blue-400">{t("teaching.titleAccent")}</span>
                     </h2>
-                    
+
                     <div className="space-y-6">
                         {teachingKeys.map((key) => (
                             <Card key={key} className="flex gap-4 p-4 bg-card/50 border-border/50 hover:border-blue-500/30 transition-all">
@@ -43,14 +43,14 @@ export function TeachingSection() {
 
                 {/* Publications Column */}
                 <div className="space-y-12">
-                     <div>
+                    <div>
                         <h2 className="mb-12 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
                             {t("teaching.publicationsTitle")} <span className="text-emerald-400">{t("teaching.publicationsAccent")}</span>
                         </h2>
-                        
+
                         <div className="space-y-8">
                             {publicationKeys.map((key) => (
-                                <motion.div 
+                                <motion.div
                                     key={key}
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
@@ -73,9 +73,9 @@ export function TeachingSection() {
                                                     {t(`teaching.publications.${key}.source`)}
                                                 </p>
                                                 <div className="pt-2">
-                                                    <a 
-                                                        href={t(`teaching.publications.${key}.doi`)} 
-                                                        target="_blank" 
+                                                    <a
+                                                        href={t(`teaching.publications.${key}.doi`)}
+                                                        target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="inline-flex items-center gap-2 text-sm font-medium text-emerald-400 hover:underline"
                                                     >
@@ -88,7 +88,7 @@ export function TeachingSection() {
                                 </motion.div>
                             ))}
                         </div>
-                     </div>
+                    </div>
                 </div>
             </div>
         </Section>

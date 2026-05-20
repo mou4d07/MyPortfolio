@@ -47,7 +47,7 @@ export function HobbiesSection() {
             </div>
 
             {/* Professional Interests */}
-            <div className="mt-16">
+            {/* <div className="mt-16">
                 <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground md:text-4xl text-center">
                     {t("hobbies.proInterestsTitle")} <span className="text-emerald-400">{t("hobbies.proInterestsAccent")}</span>
                 </h2>
@@ -62,7 +62,7 @@ export function HobbiesSection() {
                         </Card>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </Section>
     );
 }

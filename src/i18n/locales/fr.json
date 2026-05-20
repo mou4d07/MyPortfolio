@@ -142,8 +142,8 @@
       "tags": "ASP.NET Core MVC, SQL Server"
     },
     "project7": {
-      "title": "Gestion d'Auto-École",
-      "description": "Application web de gestion d'auto-école full-stack pour la planification, le suivi des élèves et l'administration.",
+      "title": "Système de Gestion de Documents Électroniques",
+      "description": "Système de Gestion de Documents Électroniques (EDMS) est une application basée sur le Web pour gérer et suivre les documents.",
       "tags": "PHP, MySQL, JavaScript (LAMP)"
     },
     "project8": {
@@ -173,7 +173,11 @@
       "bacPeriod": "2013",
       "lanCert": "Certificat d'Installation de Réseau LAN",
       "lanCertInstitution": "École des Sciences Techniques STS",
-      "lanCertPeriod": "2016"
+      "lanCertPeriod": "2016",
+      "phdDetails": "Mes recherches se situent à l'intersection de la vision par ordinateur, de l'informatique industrielle et du calcul en périphérie. Je me spécialise dans l'amélioration de la sécurité industrielle, en passant d'une surveillance passive et rétrospective à la prédiction des actions précoces (EAP), c'est-à-dire la détection des intentions comportementales humaines avant que des accidents ne surviennent dans des environnements de production lourds et à haut risque.\n\nExpertise technique principale :\n• Apprentissage profond multimodal : Conception de transformateurs spatio-temporels à trois flux qui fusionnent l'apparence RVB, la cinétique squelettique finement ajustée (HRNet + CTR-GCN) et les interactions entre objets (YOLOv8) afin de maintenir une précision prédictive élevée malgré un bruit visuel industriel important et des occlusions.\n• Intégration cyber-physique : Liaison des pipelines d'IA avancés avec l'automatisation des ateliers de production grâce à l'interfaçage avec des automates programmables industriels (par exemple, Nidec S7-414-3 DP) via une sérialisation Protobuf à haut débit, permettant une évaluation des risques contextuelle basée sur les états machine en temps réel (Marche/Arrêt).\n• Infrastructure d'IA évolutive : Analyse des goulots d'étranglement de performance de la virtualisation d'entreprise centralisée (matériel HPE SimpliVity + NVIDIA L40). pour impulser la transition architecturale vers les systèmes multi-agents distribués (MAS) et l'informatique de périphérie déterministe.",
+      "mastersDetails": "Développement d'un distributeur automatique de boissons compatible NFC avec intégration du paiement mobile et d'une application mobile Flexy NFC pour des solutions d'accès et de paiement sans contact.",
+      "bscDetails": "J'ai développé une application de gestion complète pour une auto-école, comprenant l'inscription des élèves, la planification des cours et le suivi des paiements.",
+      "tsDiplomaDetails": "J'ai construit un prototype de domotique (maison intelligente) à l'aide d'un Raspberry Pi et de plusieurs capteurs pour le contrôle de l'éclairage, de la température et de la sécurité."
     },
     "certifications": {
       "cert1": "Business Management, Finance for Non-Financial, Communication Interpersonnelle (2025)",
@@ -183,7 +187,15 @@
       "cert5": "Certificat Intel Data Center-to-Edge AI (2020)",
       "cert6": "Fortinet NSE 1 & 2 Network Security Associate (2020)",
       "cert7": "Attestation VMware vSphere : vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
-      "cert8": "Cisco CCNA Routing & Switching (Niveau 1 et 2, 2018-2019)"
+      "cert8": "Cisco CCNA Routing & Switching (Niveau 1 et 2, 2018-2019)",
+      "cert1Details": "Details will be added here.",
+      "cert2Details": "Details will be added here.",
+      "cert3Details": "Details will be added here.",
+      "cert4Details": "Details will be added here.",
+      "cert5Details": "Details will be added here.",
+      "cert6Details": "Details will be added here.",
+      "cert7Details": "Details will be added here.",
+      "cert8Details": "Details will be added here."
     }
   },
   "languages": {
@@ -306,7 +318,10 @@
     "formEmailPlaceholder": "jean@exemple.com",
     "formMessage": "Message",
     "formMessagePlaceholder": "Votre message ici...",
-    "sendButton": "Envoyer le Message"
+    "sendButton": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "successMessage": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer."
   },
   "footer": {
     "builtWith": "Construit avec",

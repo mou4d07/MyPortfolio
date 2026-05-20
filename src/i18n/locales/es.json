@@ -142,8 +142,8 @@
       "tags": "ASP.NET Core MVC, SQL Server"
     },
     "project7": {
-      "title": "Gestión de Autoescuela",
-      "description": "Aplicación web full-stack de gestión de autoescuela para programación, seguimiento de estudiantes y administración.",
+      "title": "Sistema de Gestión de Documentos Electrónicos",
+      "description": "Sistema de Gestión de Documentos Electrónicos (EDMS) es una aplicación basada en web para gestionar y rastrear documentos.",
       "tags": "PHP, MySQL, JavaScript (LAMP)"
     },
     "project8": {
@@ -173,7 +173,11 @@
       "bacPeriod": "2013",
       "lanCert": "Certificado de Instalación de Red LAN",
       "lanCertInstitution": "Escuela de Ciencias Técnicas STS",
-      "lanCertPeriod": "2016"
+      "lanCertPeriod": "2016",
+      "phdDetails": "Mi investigación se sitúa en la intersección de la visión por computadora, la informática industrial y la computación perimetral. Me especializo en el avance de la seguridad industrial, desde el monitoreo pasivo y retrospectivo hasta la predicción de acciones tempranas (EAP), capturando la intención del comportamiento humano antes de que ocurran accidentes en entornos de fabricación pesados ​​y de alto riesgo.\n\nExperiencia técnica principal:\n• Aprendizaje profundo multimodal: Diseño de transformadores espaciotemporales de tres flujos que fusionan la apariencia RGB, la cinética esquelética finamente ajustada (HRNet + CTR-GCN) y las interacciones de objetos (YOLOv8) para mantener una alta precisión predictiva a pesar del ruido visual industrial severo y las oclusiones.\n• Integración ciberfísica: Conexión de pipelines de IA avanzados con la automatización de la planta de producción mediante la interfaz con PLC industriales (por ejemplo, Nidec S7-414-3 DP) a través de la serialización Protobuf de alta velocidad, lo que permite una evaluación de riesgos sensible al contexto basada en estados de máquina en tiempo real (Marche/Stop).\n• Infraestructura de IA escalable: Análisis de los cuellos de botella de rendimiento de la virtualización empresarial centralizada (HPE SimpliVity + NVIDIA hardware L40) para impulsar la transición arquitectónica hacia los sistemas multiagente distribuidos (MAS) y la computación de borde determinista.",
+      "mastersDetails": "Se desarrolló una máquina expendedora de bebidas con tecnología NFC e integración de pago móvil, así como una aplicación móvil Flexy NFC para soluciones de acceso y pago sin contacto.",
+      "bscDetails": "Desarrollé una aplicación de gestión completa para una autoescuela, que incluye registro de estudiantes, programación de clases y seguimiento de pagos.",
+      "tsDiplomaDetails": "He construido un prototipo de domótica (casa inteligente) utilizando una Raspberry Pi y varios sensores para el control de la iluminación, la temperatura y la seguridad."
     },
     "certifications": {
       "cert1": "Gestión Empresarial, Finanzas para No Financieros, Comunicación Interpersonal (2025)",
@@ -183,7 +187,15 @@
       "cert5": "Certificado Intel Data Center-to-Edge AI (2020)",
       "cert6": "Fortinet NSE 1 & 2 Asociado de Seguridad de Red (2020)",
       "cert7": "Certificación VMware vSphere: vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
-      "cert8": "Cisco CCNA Routing & Switching (Nivel 1 y 2, 2018-2019)"
+      "cert8": "Cisco CCNA Routing & Switching (Nivel 1 y 2, 2018-2019)",
+      "cert1Details": "Details will be added here.",
+      "cert2Details": "Details will be added here.",
+      "cert3Details": "Details will be added here.",
+      "cert4Details": "Details will be added here.",
+      "cert5Details": "Details will be added here.",
+      "cert6Details": "Details will be added here.",
+      "cert7Details": "Details will be added here.",
+      "cert8Details": "Details will be added here."
     }
   },
   "languages": {
@@ -306,7 +318,10 @@
     "formEmailPlaceholder": "juan@ejemplo.com",
     "formMessage": "Mensaje",
     "formMessagePlaceholder": "Tu mensaje aquí...",
-    "sendButton": "Enviar Mensaje"
+    "sendButton": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "successMessage": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo."
   },
   "footer": {
     "builtWith": "Construido con",

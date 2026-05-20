@@ -8,61 +8,59 @@ import { Card } from "@/components/ui/Card";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const projects = [
-    {
+    /* {
         titleKey: "projects.project1.title",
         descriptionKey: "projects.project1.description",
         tags: ["Next.js", "ASP.NET Core API", "SQL Server"],
         link: "#",
         github: "https://github.com/mboudmagh",
-    },
+    }, */
     {
         titleKey: "projects.project2.title",
         descriptionKey: "projects.project2.description",
         tags: ["Flutter", "ASP.NET API", "SQL Server", "Azure DevOps"],
-        link: "https://www.alsolb-dz.com/",
-        github: "https://github.com/mboudmagh",
+        link: "https://www.alsolb.dz/",
+        github: "#",
     },
     {
         titleKey: "projects.project3.title",
         descriptionKey: "projects.project3.description",
         tags: ["TensorFlow", "Keras", "Python", "OpenCV"],
         link: "#",
-        github: "https://github.com/mboudmagh",
+        github: "https://github.com/mou4d07/A-Distributed-Multi-Agent-System-for-Scalable-Industrial-Safety",
     },
     {
         titleKey: "projects.project4.title",
         descriptionKey: "projects.project4.description",
         tags: ["Next.js", "ASP.NET Core API"],
         link: "#",
-        github: "https://github.com/mboudmagh",
+        github: "https://github.com/mou4d07/KnowledgeBase",
     },
     {
         titleKey: "projects.project5.title",
         descriptionKey: "projects.project5.description",
         tags: ["ASP.NET Core MVC", "SQL Server"],
-        link: "https://alsolb-dz.com/segao",
-        github: "https://github.com/mboudmagh",
+        link: "https://alsolb.dz/segao",
     },
     {
         titleKey: "projects.project6.title",
         descriptionKey: "projects.project6.description",
         tags: ["ASP.NET Core MVC", "SQL Server"],
-        link: "https://alsolb-dz.com/gdc",
-        github: "https://github.com/mboudmagh",
+        link: "https://alsolb.dz/gdc",
     },
     {
         titleKey: "projects.project7.title",
         descriptionKey: "projects.project7.description",
         tags: ["PHP", "MySQL", "JavaScript"],
         link: "#",
-        github: "https://github.com/mboudmagh",
+        github: "https://github.com/mou4d07/Electronic-Documents-Managements",
     },
     {
-        titleKey: "projects.project8.title",
-        descriptionKey: "projects.project8.description",
-        tags: ["Proxmox VE", "Cisco 2950", "Bahmni"],
+        titleKey: "NetStack",
+        descriptionKey: "NetStack is a network visualization and analysis tool.",
+        tags: ["NextJs", "ASP.NET Core API", "SQL Server"],
         link: "#",
-        github: "https://github.com/mboudmagh",
+        github: "https://github.com/mou4d07/NetStack",
     },
 ];
 
@@ -83,15 +81,17 @@ export function ProjectsSection() {
                                 <Folder className="h-6 w-6" />
                             </div>
                             <div className="flex gap-4 text-muted">
-                                <a
-                                    href={project.github}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-foreground transition-colors"
-                                    aria-label="GitHub Repository"
-                                >
-                                    <SiGithub size={20} />
-                                </a>
+                                {project.github && project.github !== "#" && (
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-foreground transition-colors"
+                                        aria-label="GitHub Repository"
+                                    >
+                                        <SiGithub size={20} />
+                                    </a>
+                                )}
                                 {project.link !== "#" && (
                                     <a
                                         href={project.link}

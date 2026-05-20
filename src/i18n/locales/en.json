@@ -122,12 +122,12 @@
       "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
-      "title": "AI Human Action Recognition",
+      "title": "A Distributed Multi Agent System for Scalable Industrial Safety",
       "description": "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition and prediction.",
       "tags": "TensorFlow, Keras, Python, OpenCV"
     },
     "project4": {
-      "title": "Bug Tracker",
+      "title": "Knowledge Base System",
       "description": "Internal bug tracking application for the development team to manage and trace software issues.",
       "tags": "Next.js, ASP.NET Core API"
     },
@@ -142,8 +142,8 @@
       "tags": "ASP.NET Core MVC, SQL Server"
     },
     "project7": {
-      "title": "Driving School Management",
-      "description": "Full-stack driving school management web application for scheduling, student tracking, and administration.",
+      "title": "Electronic Document Management System",
+      "description": "Electronic Document Management System (EDMS) is a web-based application for managing and tracking documents.",
       "tags": "PHP, MySQL, JavaScript (LAMP)"
     },
     "project8": {
@@ -173,7 +173,11 @@
       "bacPeriod": "2013",
       "lanCert": "Computer LAN Network Installation Certificate",
       "lanCertInstitution": "STS Technical Science School",
-      "lanCertPeriod": "2016"
+      "lanCertPeriod": "2016",
+      "phdDetails": "My research sits at the intersection of Computer Vision, Industrial Informatics, and Edge Computing. I specialize in advancing industrial safety from passive, retrospective monitoring to Early Action Prediction (EAP)—capturing human behavioral intent before accidents occur in heavy, high-risk manufacturing environments.\n\nCore Technical Expertise:\n• Multimodal Deep Learning: Designing Three-Stream Spatio-Temporal Transformers that fuse RGB appearance, fine-tuned skeletal kinetics (HRNet + CTR-GCN), and object interactions (YOLOv8) to maintain high predictive accuracy despite severe industrial visual noise and occlusions.\n• Cyber-Physical Integration: Bridging advanced AI pipelines with factory-floor automation by interfacing with industrial PLCs (e.g., Nidec S7-414-3 DP) via high-speed Protobuf serialization, enabling context-aware risk assessment based on real-time machine states (Marche/Stop).\n• Scalable AI Infrastructure: Analyzing the performance bottlenecks of centralized enterprise virtualization (HPE SimpliVity + NVIDIA L40 hardware) to drive the architectural transition toward Distributed Multi-Agent Systems (MAS) and deterministic Edge computing.",
+      "mastersDetails": "Developed an NFC‑enabled beverage vending machine with mobile payment integration and a Flexy NFC mobile application for contactless access and payment solutions.",
+      "bscDetails": "Developed a complete management application for a driving school, including student registration, scheduling, and payment tracking.",
+      "tsDiplomaDetails": "Built a domotic (smart home) prototype using Raspberry Pi and multiple sensors for lighting, temperature, and security control."
     },
     "certifications": {
       "cert1": "Business Management, Finance for Non-Financial, Interpersonal Communication (2025)",
@@ -183,7 +187,15 @@
       "cert5": "Intel Data Center-to-Edge AI Certificate (2020)",
       "cert6": "Fortinet NSE 1 & 2 Network Security Associate (2020)",
       "cert7": "VMware vSphere Attestation: vSphere 6.7 & vCenter 6.7 — ItTalentSchool (2019)",
-      "cert8": "Cisco CCNA Routing & Switching (Level 1 and 2, 2018-2019)"
+      "cert8": "Cisco CCNA Routing & Switching (Level 1 and 2, 2018-2019)",
+      "cert1Details": "Details will be added here.",
+      "cert2Details": "Details will be added here.",
+      "cert3Details": "Details will be added here.",
+      "cert4Details": "Details will be added here.",
+      "cert5Details": "Details will be added here.",
+      "cert6Details": "Details will be added here.",
+      "cert7Details": "Details will be added here.",
+      "cert8Details": "Details will be added here."
     }
   },
   "languages": {
@@ -306,7 +318,10 @@
     "formEmailPlaceholder": "john@example.com",
     "formMessage": "Message",
     "formMessagePlaceholder": "Your message here...",
-    "sendButton": "Send Message"
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully! I'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please try again."
   },
   "footer": {
     "builtWith": "Built with",
