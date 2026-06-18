@@ -19,15 +19,15 @@ const projects = [
         titleKey: "projects.project2.title",
         descriptionKey: "projects.project2.description",
         tags: ["Flutter", "ASP.NET API", "SQL Server", "Azure DevOps"],
-        link: "https://www.alsolb.dz/",
+        link: "https://alsolb.dz/",
         github: "#",
     },
-    {
-        titleKey: "projects.project3.title",
-        descriptionKey: "projects.project3.description",
+        {
+        titleKey: "projects.project9.title",
+        descriptionKey: "projects.project9.description",
         tags: ["TensorFlow", "Keras", "Python", "OpenCV"],
         link: "#",
-        github: "https://github.com/mou4d07/A-Distributed-Multi-Agent-System-for-Scalable-Industrial-Safety",
+        github: "https://github.com/mou4d07/Multimodal-Human-Action-Recognition-for-Ubiquitous-Systems-CrossAttention-of-Skeleton-and-Audio.git",
     },
     {
         titleKey: "projects.project4.title",
@@ -62,6 +62,13 @@ const projects = [
         link: "#",
         github: "https://github.com/mou4d07/NetStack",
     },
+        {
+        titleKey: "projects.project3.title",
+        descriptionKey: "projects.project3.description",
+        tags: ["TensorFlow", "Keras", "Python", "OpenCV"],
+        link: "#",
+        github: "https://github.com/mou4d07/A-Distributed-Multi-Agent-System-for-Scalable-Industrial-Safety",
+    }
 ];
 
 export function ProjectsSection() {

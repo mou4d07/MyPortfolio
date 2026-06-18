@@ -150,7 +150,12 @@
       "title": "医疗诊所IT系统",
       "description": "端到端IT系统实施：LAN网络、IP监控、Proxmox VE虚拟机与Bahmni诊所管理。",
       "tags": "Proxmox VE, Cisco 2950, Bahmni"
-    }
+    },
+    "project9": {
+      "title": "面向普适系统的多模态人体动作识别：骨骼和音频的交叉注意力机制",
+      "description": "这是一个基于TensorFlow的多模态人体识别系统，它通过四头交叉注意力机制融合了骨骼和音频数据。ResNet-50处理31通道时空热图；ConvNeXt-Tiny对log-Mel+Δ+Δ²频谱图进行编码。该系统在NTU RGB+D X-SUB数据集上取得了94.7%的准确率，在MSR Daily Activity 3D数据集上取得了97.9%的准确率。",
+      "tags": "TensorFlow, Keras, Python, OpenCV"
+    }  
   },
   "education": {
     "title": "教育",

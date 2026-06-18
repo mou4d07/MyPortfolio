@@ -150,7 +150,12 @@
       "title": "Sistema IT de Clínica Médica",
       "description": "Implementación completa de sistema IT: red LAN, vigilancia IP, hipervisor Proxmox VE con gestión clínica Bahmni.",
       "tags": "Proxmox VE, Cisco 2950, Bahmni"
-    }
+    },
+    "project9": {
+      "title": "Reconocimiento multimodal de acciones humanas para sistemas ubicuos. Atención cruzada de esqueleto y audio.",
+      "description": "Sistema HAR multimodal de TensorFlow que fusiona esqueleto y audio mediante atención cruzada de cuatro cabezas. ResNet-50 procesa mapas de calor espaciotemporales de 31 canales; ConvNeXt-Tiny codifica espectrogramas log-Mel+Δ+Δ². Alcanza un 94,7 % en NTU RGB+D X-SUB y un 97,9 % en MSR Daily Activity 3D.",
+      "tags": "TensorFlow, Keras, Python, OpenCV"
+    }  
   },
   "education": {
     "title": "Educación",
