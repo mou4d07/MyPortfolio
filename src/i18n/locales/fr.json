@@ -15,6 +15,7 @@
     "subtitle1": "Développeur Full-Stack",
     "subtitle2": "Ingénieur DevOps",
     "subtitle3": "Architecte Systèmes IT",
+    "subtitle4": "Automatisation IA",
     "description": "Combler le fossé entre l'ingénierie logicielle évolutive et une infrastructure IT robuste.",
     "viewProjects": "Voir les Projets",
     "downloadCV": "Télécharger le CV",
@@ -25,7 +26,8 @@
     "titleAccent": "Propos",
     "p1": "Professionnel IT très adaptable et leader en développement avec plus de 8 ans d'expérience en entreprise, alliant ingénierie logicielle et infrastructure IT. Actuellement Chef du Service Développement d'Applications, spécialisé en développement web Full-Stack (<accent1>Next.js, ASP.NET Core</accent1>) et méthodologies DevOps.",
     "p2": "Bilan éprouvé dans l'architecture d'applications évolutives, l'orchestration de déploiements automatisés vers des serveurs web haute disponibilité (<accent2>IIS, Nginx</accent2>), et la gestion de pipelines CI/CD dans Azure DevOps.",
-    "p3": "Apporte une expertise approfondie dans l'optimisation de la virtualisation d'entreprise, le déploiement d'environnements Windows Server et Linux sur des machines virtuelles et des serveurs bare-metal, et la recherche en Deep Learning."
+    "p3": "Apporte une expertise approfondie dans l'optimisation de la virtualisation d'entreprise, le déploiement d'environnements Windows Server et Linux sur des machines virtuelles et des serveurs bare-metal, et la recherche en Deep Learning.",
+    "p4": "Conçoit et déploie également des solutions d'IA d'entreprise — d'assistants privés sur site à des workflows automatisés — en s'appuyant sur <accent1>Ollama, le RAG et le Prompt Engineering</accent1> pour une intelligence documentaire sécurisée, ainsi que sur <accent2>n8n et les systèmes multi-agents</accent2> pour automatiser les processus métier."
   },
   "skills": {
     "title": "Compétences",
@@ -50,7 +52,8 @@
         "desc1": "Gestion d'une équipe de développeurs pour la maintenance et la mise à jour des applications existantes.",
         "desc2": "Déploiement de la solution DevOps (Azure DevOps) : Git pour la gestion du code, pipelines CI/CD et Test Plans.",
         "desc3": "Développement d'applications mobiles et web (alsolb-dz.com — Flutter & ASP.NET Core REST API).",
-        "desc4": "Réalisation des applications SEGAO et GDC (ASP.NET Core MVC), Bug tracker et gestion de paie/carrière (Next.js + ASP.NET Core API)."
+        "desc4": "Réalisation des applications SEGAO et GDC (ASP.NET Core MVC), Bug tracker et gestion de paie/carrière (Next.js + ASP.NET Core API).",
+        "desc5": "Conception et mise en œuvre de solutions d'IA d'entreprise utilisant Ollama, la génération augmentée par récupération (RAG) et n8n pour automatiser l'intelligence documentaire, le support technique assisté par IA, la recherche de connaissances et les workflows métier, avec un déploiement sécurisé sur site."
       },
       "job2": {
         "title": "Responsable IT — Coupe d'Afrique des Nations U17 (CAN U17)",
@@ -122,9 +125,9 @@
       "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
-      "title": "Reconnaissance d'Actions Humaines par IA",
-      "description": "Application de recherche doctorale utilisant la fusion de données audio et squelettiques pour la reconnaissance et la prédiction d'actions humaines en temps réel.",
-      "tags": "TensorFlow, Keras, Python, OpenCV"
+      "title": "Plateforme IA Multi-Agents pour la Sécurité Industrielle",
+      "description": "Plateforme d'IA multi-agents distribuée pour la surveillance de la sécurité industrielle en temps réel, combinant la vision par ordinateur YOLO et des agents de raisonnement basés sur des LLM (Ollama) pour la détection et la réponse automatisées aux dangers.",
+      "tags": "TensorFlow, PyTorch, OpenCV, YOLO, Ollama, LLMs, Multi-Agent Systems"
     },
     "project4": {
       "title": "Bug Tracker",
@@ -155,7 +158,22 @@
       "title": "Reconnaissance multimodale des actions humaines pour les systèmes omniprésents : attention croisée du squelette et de l’audio",
       "description": "Un système HAR multimodal TensorFlow fusionnant le squelette et l'audio via une approche d'attention croisée à 4 têtes. ResNet-50 traite des cartes thermiques spatio-temporelles à 31 canaux ; ConvNeXt-Tiny encode des spectrogrammes log-Mel+Δ+Δ². Ce système atteint 94,7 % sur NTU RGB+D X-SUB et 97,9 % sur MSR Daily Activity 3D.",
       "tags": "TensorFlow, Keras, Python, OpenCV"
-    }  
+    },
+    "project10": {
+      "title": "Fusion de Données pour la Prédiction d'Actions Humaines",
+      "description": "Pipeline de fusion de données multimodales combinant squelette, audio et flux visuels pour prédire les actions humaines, optimisé avec ONNX pour un déploiement efficace et adossé à une base de données PostgreSQL.",
+      "tags": "TensorFlow, Keras, PyTorch, OpenCV, ONNX, PostgreSQL"
+    },
+    "project11": {
+      "title": "Alsolb IA – Assistant IA Privé d'Entreprise",
+      "description": "Assistant IA privé de niveau entreprise déployé entièrement sur site, associant un LLM local (Ollama, Gemma) à la génération augmentée par récupération (RAG) sur les données internes SQL Server pour une intelligence documentaire et une recherche de connaissances sécurisées.",
+      "tags": "Ollama, Gemma, RAG, ASP.NET Core, SQL Server, Prompt Engineering"
+    },
+    "project12": {
+      "title": "Plateforme d'Automatisation du Support IT par IA",
+      "description": "Plateforme d'automatisation du support IT propulsée par l'IA, orchestrant des workflows n8n avec un LLM local (Ollama) pour trier automatiquement les tickets GLPI et les e-mails entrants (Microsoft Graph API/IMAP), exposée via une API REST ASP.NET Core sur mesure.",
+      "tags": "n8n, Ollama, GLPI, Microsoft Graph API, ASP.NET Core API, Workflow Automation"
+    }
   },
   "education": {
     "title": "Formation",

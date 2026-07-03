@@ -40,6 +40,9 @@ export function AboutSection() {
                     <p className="leading-relaxed">
                         {renderAccentedText(t("about.p3"))}
                     </p>
+                    <p className="leading-relaxed">
+                        {renderAccentedText(t("about.p4"))}
+                    </p>
                 </div>
             </div>
         </Section>

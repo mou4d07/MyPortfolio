@@ -63,7 +63,8 @@ export function HeroSection() {
                         >
                             <h2 className="mb-6 text-base font-medium text-muted sm:mb-8 sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl min-[1920px]:text-4xl">
                                 {t("hero.subtitle1")} <span className="text-blue-500">|</span> {t("hero.subtitle2")}{" "}
-                                <span className="text-blue-500">|</span> {t("hero.subtitle3")}
+                                <span className="text-blue-500">|</span> {t("hero.subtitle3")}{" "}
+                                <span className="text-blue-500">|</span> {t("hero.subtitle4")}
                             </h2>
                         </motion.div>
 

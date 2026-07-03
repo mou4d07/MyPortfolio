@@ -31,7 +31,7 @@ const skillCategories = [
     {
         titleKey: "skills.categories.ai",
         icon: <Cpu className="h-8 w-8 text-blue-400" />,
-        skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Convolutional Neural Networks", "Recurrent Neural Networks", "Transformers"],
+        skills: ["TensorFlow", "PyTorch", "Keras", "OpenCV", "Transformers", "YOLO", "ONNX", "Ollama", "RAG (Retrieval-Augmented Generation)", "LLMs", "Prompt Engineering", "Multi-Agent Systems", "n8n"],
     },
 ];
 

@@ -15,6 +15,7 @@
     "subtitle1": "Full-Stack Developer",
     "subtitle2": "DevOps Engineer",
     "subtitle3": "IT Systems Architect",
+    "subtitle4": "AI Automation",
     "description": "Bridging the gap between scalable software engineering and robust IT infrastructure.",
     "viewProjects": "View Projects",
     "downloadCV": "Download CV",
@@ -25,7 +26,8 @@
     "titleAccent": "Me",
     "p1": "Highly adaptable IT professional and development leader with over 8 years of enterprise experience bridging software engineering and IT infrastructure. Currently serving as Head of Application Development, specializing in Full-Stack Web Development (<accent1>Next.js, ASP.NET Core</accent1>) and DevOps methodologies.",
     "p2": "Proven track record of architecting scalable applications, orchestrating automated deployments to high-availability web servers (<accent2>IIS, Nginx</accent2>), and managing CI/CD pipelines in Azure DevOps.",
-    "p3": "Brings deep foundational expertise in optimizing enterprise virtualization, deploying Windows Server and Linux environments across VMs and bare-metal servers, and AI Deep Learning research."
+    "p3": "Brings deep foundational expertise in optimizing enterprise virtualization, deploying Windows Server and Linux environments across VMs and bare-metal servers, and AI Deep Learning research.",
+    "p4": "Also designs and delivers enterprise AI solutions — from private on-premises assistants to automated workflows — leveraging <accent1>Ollama, RAG, and Prompt Engineering</accent1> for secure document intelligence, <accent2>n8n and multi-agent systems</accent2> to automate operations and business processes."
   },
   "skills": {
     "title": "Technical",
@@ -50,7 +52,8 @@
         "desc1": "Managing a team of developers for maintaining and updating existing applications.",
         "desc2": "Deployment of DevOps solution (Azure DevOps): Git for code management, CI/CD pipelines, and Test Plans.",
         "desc3": "Mobile and web application development (alsolb-dz.com — Flutter & ASP.NET Core REST API).",
-        "desc4": "Built SEGAO and GDC web apps (ASP.NET Core MVC), Bug tracker and Payroll/Career management (Next.js + ASP.NET Core API)."
+        "desc4": "Built SEGAO and GDC web apps (ASP.NET Core MVC), Bug tracker and Payroll/Career management (Next.js + ASP.NET Core API).",
+        "desc5": "Designed and implemented enterprise AI solutions using Ollama, Retrieval-Augmented Generation (RAG), and n8n to automate document intelligence, AI-powered helpdesk operations, knowledge retrieval, and business workflows while ensuring secure on-premises deployment."
       },
       "job2": {
         "title": "IT Manager — African Cup of Nations U17 (CAN U17)",
@@ -122,9 +125,9 @@
       "tags": "Flutter, ASP.NET Core API, SQL Server, Azure DevOps"
     },
     "project3": {
-      "title": "A Distributed Multi Agent System for Scalable Industrial Safety",
-      "description": "PhD research application utilizing a fusion of audio and skeleton data for real-time human action recognition and prediction.",
-      "tags": "TensorFlow, Keras, Python, OpenCV"
+      "title": "Industrial Safety Multi-Agent AI Platform",
+      "description": "Distributed multi-agent AI platform for real-time industrial safety monitoring, combining YOLO-based computer vision with LLM-driven reasoning agents (Ollama) for automated hazard detection and response.",
+      "tags": "TensorFlow, PyTorch, OpenCV, YOLO, Ollama, LLMs, Multi-Agent Systems"
     },
     "project4": {
       "title": "Knowledge Base System",
@@ -155,7 +158,22 @@
       "title": "Multimodal Human Action Recognition for Ubiquitous Systems CrossAttention of Skeleton and Audio",
       "description": "A TensorFlow multimodal HAR system fusing skeleton and audio via 4-head Cross-Attention. ResNet-50 processes 31-channel spatiotemporal heatmaps; ConvNeXt-Tiny encodes log-Mel+Δ+Δ² spectrograms. Achieves 94.7% on NTU RGB+D X-SUB and 97.9% on MSR Daily Activity 3D.",
       "tags": "TensorFlow, Keras, Python, OpenCV"
-    }    
+    },
+    "project10": {
+      "title": "Data Fusion for Human Action Prediction",
+      "description": "Multimodal data fusion pipeline combining skeleton, audio, and visual streams to predict human actions, optimized with ONNX for efficient deployment and backed by a PostgreSQL data store.",
+      "tags": "TensorFlow, Keras, PyTorch, OpenCV, ONNX, PostgreSQL"
+    },
+    "project11": {
+      "title": "Alsolb IA – Enterprise Private AI Assistant",
+      "description": "Enterprise-grade private AI assistant deployed fully on-premises, pairing a local LLM (Ollama, Gemma) with Retrieval-Augmented Generation (RAG) over internal SQL Server data to deliver secure document intelligence and knowledge retrieval.",
+      "tags": "Ollama, Gemma, RAG, ASP.NET Core, SQL Server, Prompt Engineering"
+    },
+    "project12": {
+      "title": "AI Helpdesk Automation Platform",
+      "description": "AI-powered helpdesk automation platform orchestrating n8n workflows with a local LLM (Ollama) to auto-triage GLPI tickets and inbound support emails (Microsoft Graph API/IMAP), exposed through a custom ASP.NET Core REST API.",
+      "tags": "n8n, Ollama, GLPI, Microsoft Graph API, ASP.NET Core API, Workflow Automation"
+    }
   },
   "education": {
     "title": "Education",

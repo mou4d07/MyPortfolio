@@ -7,7 +7,7 @@ import { Section } from "@/components/ui/Section";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const jobKeys = [
-    { key: "job1", descCount: 4 },
+    { key: "job1", descCount: 5 },
     { key: "job2", descCount: 3 },
     { key: "job3", descCount: 3 },
     { key: "job4", descCount: 4 },

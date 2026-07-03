@@ -65,10 +65,31 @@ const projects = [
         {
         titleKey: "projects.project3.title",
         descriptionKey: "projects.project3.description",
-        tags: ["TensorFlow", "Keras", "Python", "OpenCV"],
+        tags: ["TensorFlow", "PyTorch", "OpenCV", "YOLO", "Ollama", "LLMs", "Multi-Agent Systems"],
         link: "#",
         github: "https://github.com/mou4d07/A-Distributed-Multi-Agent-System-for-Scalable-Industrial-Safety",
-    }
+    },
+    {
+        titleKey: "projects.project11.title",
+        descriptionKey: "projects.project11.description",
+        tags: ["Ollama", "Gemma", "RAG", "ASP.NET Core", "SQL Server", "Prompt Engineering"],
+        link: "https://alsolb.dz/",
+        github: "#",
+    },
+    {
+        titleKey: "projects.project12.title",
+        descriptionKey: "projects.project12.description",
+        tags: ["n8n", "Ollama", "GLPI", "Microsoft Graph API", "ASP.NET Core API", "Workflow Automation"],
+        link: "#",
+        github: "#",
+    },
+    {
+        titleKey: "projects.project10.title",
+        descriptionKey: "projects.project10.description",
+        tags: ["TensorFlow", "Keras", "PyTorch", "OpenCV", "ONNX", "PostgreSQL"],
+        link: "#",
+        github: "#",
+    },
 ];
 
 export function ProjectsSection() {
